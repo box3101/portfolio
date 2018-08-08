@@ -1,13 +1,8 @@
 # 포트폴리오
-> 근재의 포트폴리오 저장소!
+> 찬용이의 포트폴리오 저장소!
 
-###### PC
-- [...](README.md)
-
-###### Mobile
-- [LG Fashion](Mobile/LG_Fashion)
-
-###### Responsive
+###### Responsiv -
+- [포트폴리오 원페이지 모음페이지](https://box3101.github.io/portfolio/20180720/portfolio/html/main.html#none)
 - [네이버 댓글](Responsive/네이버_댓글)
 - [카카오스토리](Responsive/카카오스토리)
 - [MBC 공연티켓](Responsive/MBC_공연티켓)
