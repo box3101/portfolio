@@ -75,15 +75,13 @@ function bindingEvent(){
 
   var slideHeight = $(window).height();
 
-  $('#visual').css('height', slideHeight);
   $('#welcome').css('height', slideHeight);
   $('#services').css('height', slideHeight);
   $('#vision').css('height', slideHeight);
 
 
 
-  $(window).resize(function () {
-      $('#visual').css('height', slideHeight);
+  $(window).resize(function () {    
       $('#welcome').css('height', slideHeight);
       $('#services').css('height', slideHeight);
       $('#vision').css('height', slideHeight);
