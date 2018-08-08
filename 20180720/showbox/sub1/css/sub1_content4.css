@@ -1,0 +1,26 @@
+.leftNav>li:nth-child(5)>a{color: #FFCC00;}
+
+/* content */
+.titleArea{
+  padding-top: 20px;
+}
+.banner>li{margin-top: 20px; width: 228px; height: 130px;background: url(../img/banner1.jpg); background-size:cover; text-indent: -9999px;}
+.banner>li:last-child{background: url(../img/banner2.jpg); background-size:cover;}
+.titleArea>h2{font:bold 25px/1 "맑은고딕"; color: #555; margin-bottom: 15px;}
+.titleArea>p{font:bold 13px/1 "맑은고딕"; color: #aaa; position: relative;}
+.titleArea>p::after{content: ''; display: block; position: absolute; top: 55px; left: -20px; width: 107%; height: 1px; background: #ddd; }
+.contentArea{margin-top: 50px; padding: 20px; box-sizing: border-box;}
+.contentArea>h3{width: 600px; height: 55px; background: url(../img/contact1.jpg); background-size:cover; margin-bottom: 30px;  overflow: hidden; text-indent: -9999px;}
+.contentArea>.map{width: 600px; height: 300px; background: #aaa; margin-top: 30px;}
+.contact{margin-top: 30px;  width: 600px;}
+.contact>h3{width: 142px; height: 46px; background: url(../img/contactus.jpg); background-size:cover; margin-bottom: 10px; text-indent: -9999px;}
+.contact>table{width: 100%; border: 1px solid #000;}
+.contact>table th{height: 40px; text-align: center; border-right: 1px solid #000; border-bottom: 1px solid #000; text-align: center;}
+.contact>table td{width: 100%; border-bottom: 1px solid #000; text-indent: 20px;}
+.public{margin-top: 30px; width: 600px;}
+.public>h3{width: 164px; height: 46px; background: url(../img/public.jpg); background-size:cover; margin-bottom: 10px; text-indent: -9999px;}
+.public>ul{overflow: hidden; padding: 25px; border: 1px solid #aaa;}
+.public>ul>li{float: left;}
+.public>ul>li>p{float: left; margin-left: 30px; font:12px/1.5 "맑은고딕"; color: #333;}
+.img{width: 70px; height: 70px; background: url(../img/bus.jpg); background-size:cover; float: left;}
+.img2{width: 70px; height: 70px; background: url(../img/subway.jpg); background-size:cover; float: left; margin-left: 40px;}

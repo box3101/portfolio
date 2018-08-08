@@ -1,0 +1,45 @@
+.leftNav>li:nth-child(2)>a{color: #FFCC00;}
+
+/* content  */
+.titleArea{
+  padding-top: 20px;
+}
+.contentArea{margin-top: 30px; padding: 50px 45px;}
+table{
+  width: 100%;
+}
+table a{
+  color: #333;
+  font: 12px/1 "arial";
+}
+table thead{
+  width: 100%;
+}
+table th{
+  height: 25px;
+  text-align: center;
+  border-top: 1px solid #aaa;
+  border-bottom: 1px dashed #aaa;
+  font:bold 14px/25px "맑은고딕"; color: #000;
+}
+table td{
+  height: 25px;
+  text-align: center;
+  border-bottom: 1px dashed #aaa;
+  font: 12px/25px "맑은고딕"; color: #222;
+}
+.link{
+  text-align: left;
+  line-height: 20px;
+  padding: 5px 0;
+}
+.paging{
+  text-align: center;
+}
+.paging>a{
+  display: inline-block;
+  color: #aaa;
+  margin: 0 2px;
+  margin-top: 20px;
+}
+.paging>a>img{position: relative; top: 2px;}

@@ -1,0 +1,55 @@
+.leftNav>li:nth-child(3)>a{color: #FFCC00;}
+
+/* content */
+.titleArea{
+  padding-top: 20px;
+}
+.contentArea{
+  margin-top: 60px;
+  padding: 50px 45px;
+  overflow: hidden;
+}
+.movienow{
+  width: 600px;
+  margin-bottom: 40px;
+  background: #ccc;
+  padding: 20px 20px 30px 20px;
+  position: relative;
+  overflow: hidden;
+}
+.img{
+  float: left;
+  width: 176px; height: 254px;
+  background: url(../img/img.jpg);
+  background-size: cover;
+  margin-top: 20px;
+}
+.info{
+  float: right;
+  width: 384px;
+  margin-top: 20px;
+}
+.info>p.header{
+  font-weight: bold;
+  font-size: 18px;
+  margin: 7px 0;
+  color: #333;
+}
+.info>p{
+  font:14px/1.6 "맑은고딕";
+}
+a.readmore{
+  position: absolute;
+  bottom: 10px; right: 20px;
+  color: #000;
+  display: block;
+}
+.adds{
+ display: none;
+}
+.adds.on{
+  display: block;
+}
+.readmore.on{
+  display: none;
+}

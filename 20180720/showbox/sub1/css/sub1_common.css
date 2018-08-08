@@ -1,0 +1,10 @@
+/* layout */
+.container{padding-top: 106px; width: 1000px; margin: 0 auto; margin-bottom: 30px; overflow: hidden;}
+.leftBox{float: left; width: 228px; border: 1px solid #aaa;}
+#content{float: right; width: 730px; padding: 20px; box-sizing: border-box;}
+
+/* leftBox */
+.leftNav{width: 228px;}
+.leftNav>li:nth-child(1){width: 228px; height: 131px; text-indent: -9999px; background: url(../img/sub1_title.jpg); background-size:cover;}
+.leftNav>li>a{display: block; width: 228px; height: 53px; font:bold 15px/53px "맑은고딕"; color: #333; border-bottom: 1px solid #aaa; text-indent: 45px;}
+.leftNav>li>a:hover{color: #FFCC00;}

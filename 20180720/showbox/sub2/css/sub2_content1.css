@@ -1,0 +1,97 @@
+.leftNav>li:nth-child(2)>a{color: #FFCC00;}
+
+/* content  */
+.titleArea{
+  padding-top: 20px;
+}
+.contentArea{margin-top: 70px; padding: 50px 45px;}
+.movienow{overflow: hidden; width: 600px; margin-bottom: 40px;}
+.poster{float: left; width: 176px; height: 255px; margin-right: 40px; background: url(../img/info.jpg); background-size:cover;}
+.info{overflow: hidden; float: right; width: 384px; height: 255px;}
+.info dl dt{
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.info dl dd{
+  font:12px/1.5 "arial"; color: #555;
+}
+.title{margin-bottom: 10px; overflow: hidden;}
+.title>span{display: inline-block; width: 33px; height: 35px; background: #aaa; float: left; font:25px/37px "arial"; color: #000; text-align: center;
+border-radius: 10px;}
+.title>h3{font:bold 27px/1.6 "맑은고딕"; color: #333; text-indent: 10px; position: relative; bottom: 4px; margin-bottom: 30px;}
+.text>ul{overflow: hidden;}
+.text>ul>li{line-height: 15px;}
+.plot{margin-bottom: 30px;}
+.plot>h3{width: 100px; height: 35px; background: #aaa; margin-bottom: 10px; font:15px/37px "arial"; color: #111; border-radius: 10px; text-align: center;}
+.plot>p{
+  line-height: 20px;
+}
+.potolist{
+  position: relative;
+}
+.left{
+  position: absolute;
+  top: 103px; left: -50px;
+  width: 20px; height: 20px;
+  background: url(../img/left.jpg);
+  background-size:cover;
+}
+.potolist>h3{
+  width: 100px; height: 39px;
+  margin-bottom: 30px;
+  background: #aaa;
+  font:15px/39px "arial"; color: #111;
+  border-radius: 10px;
+  text-align: center;
+}
+.right{
+  position: absolute;
+  top: 103px; right: -47px;
+  width: 20px; height: 20px;
+  background: url(../img/right.jpg);
+  background-size:cover;
+  z-index: 10;
+}
+.steel{
+ width: 600px;
+ overflow: hidden;
+}
+.steel>ul{
+ width: 918px;
+ overflow: hidden;
+}
+.steel>ul>li{float: left;}
+.steel>ul>li>a{
+  display: block;
+  width: 142px; height: 85px;
+  background: url(../img/c6.jpg);
+  background-size:cover;
+  margin-right: 10px;
+}
+.steel>ul>li>a.on{
+  border: 3px solid red;
+}
+.steel>ul>li>a.t2{ background: url(../img/c2.jpg); background-size:cover;}
+.steel>ul>li>a.t3{ background: url(../img/c3.jpg); background-size:cover;}
+.steel>ul>li>a.t4{ background: url(../img/c4.jpg); background-size:cover;}
+.steel>ul>li>a.t5{ background: url(../img/c5.jpg); background-size:cover;}
+.steel>ul>li>a.t6{ background: url(../img/c1.jpg); background-size:cover;}
+.background{
+  margin-top: 20px;
+  position: relative;
+  width: 600px; height: 400px;
+}
+.background>a.box{
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  background: url(../img/c6.jpg);
+  display: none;
+}
+.background>a.box.on{
+  display: block;
+}
+#tab2{background: url(../img/c2.jpg);}
+#tab3{background: url(../img/c3.jpg);}
+#tab4{background: url(../img/c4.jpg);}
+#tab5{background: url(../img/c5.jpg);}
+#tab6{background: url(../img/c1.jpg);}

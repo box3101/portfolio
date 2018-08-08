@@ -1,0 +1,134 @@
+/* reset.css */
+html, body, div, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, address, dl, dt, dd, ol, ul, li, fieldset, form, legend, table, caption, tbody, tfoot, thead, tr, th, td, input, select, textarea{margin:0; padding:0;}
+h1, h2, h3, h4, h5, h6{font-size:100%;}
+img, fieldset{border:0px;}
+table{border-collapse:collapse;}
+ul, ol, li{list-style:none;}
+address, em{font-style:normal;}
+li img, object{vertical-align:top;}
+input, select, textarea, form img{vertical-align:middle; border:0;}
+a{ outline:0; text-decoration:none; border:none;}
+body { font: 12px /1.2 Dotum, "돋움", arial; color:#666;}
+
+.headerWrap{width: 100%; background: url(../img/bgHeader.gif) repeat-x; transition: all 1s;}
+#header{width: 1000px; height: 120px; margin: 0 auto; position: relative;}
+.footerWrap{width: 100%; background: url(../img/bgFooter.gif);}
+#footer{width: 1000px; height: 183px; margin: 0 auto; position: relative; transition: all 1s }
+
+/* header */
+#header span{margin: 0 3px;}
+.topMemu{position: absolute; top: 30px; left: 0;}
+.topMemu>li{float: left;}
+.topMemu>li>a{font:11px/1.6 "맑은고딕"; color: #555;}
+.topMemu>li>select{font:12px/1.6 "맑은고딕"; color: #555; letter-spacing: -0.5px;}
+.logo{position: absolute; top: 10px; left: 50%; margin-left: -70px;}
+.util{position: absolute; top: 30px; right: 128px;}
+.util>li{float: left;}
+.util>li>a{font:11px/1.6 "맑은고딕"; color: #555;}
+.topbtn{position: absolute; top: 15px; right: 0; display: block; width: 112px; height: 37px;
+         font:bold 12px/37px "맑은고딕"; color: #fff; text-align: center; background: #996B56;}
+#gnb{position: absolute; left: 0; bottom: 0;}
+#gnb>li{float: left; padding-right: 69px;}
+#gnb>li:last-child{padding-right: 0 !important;}
+#gnb>li>a{display: block; height: 50px; font:bold 12px/50px "맑은고딕"; color: #333;}
+#gnb>li>a:hover{color: #aaa;}
+
+/* #footer */
+.fotmenu{position: absolute; top: 0; left: 0;}
+.fotmenu span{margin-left: 8px; margin-right: 8px;}
+.fotmenu>li>a{font:14px/1px "arial"; color: #aaa; display: inline-block; padding: 20px 0;}
+.botBtn{position: absolute; top: 0; right: 0;}
+.botLogo{ position: absolute; left: 0; bottom: 0;}
+#footer p.fotTop{ position: absolute; left: 180px; bottom: 75px;}
+#footer p{ position: absolute; left: 180px; bottom: 35px; font:12px/1.4 "arial"; color: #aaa;}
+.sns{ position: absolute; right: 30px; bottom: 80px;}
+.sns li{float: left;}
+.sns li>a{ display: block; width: 26px; height: 26px; position: relative; background: #6E6F73; border-radius: 50%; margin-right: 15px;}
+.sns>li>a>img{ position: absolute; left: 50%; margin-left: -7.5px; top: 50%; margin-top: -12.5px;}
+.QikBtn{position: absolute; right: 0; bottom: 20px; display: block; width: 147px; height: 35px;
+        border: 1px solid #646569; font:14px/35px "arial"; color: #aaa; padding-left: 20px;}
+
+/* subVisual */
+.subVisual{width: 1000px; margin: 0 auto; height: 120px; background: yellow;}
+.container{width: 1000px; min-height: 700px; margin: 0 auto; overflow: hidden; margin-top: 30px; margin-bottom: 30px;}
+#lnb{float: left; width: 250px; height: 400px; background: #aaa;}
+
+/* 여백 */
+.ml0{margin-left:0px !important}
+.ml1{margin-left:1px !important;}
+.ml2{margin-left:2px !important;}
+.ml3{margin-left:3px !important;}
+.ml4{margin-left:4px !important;}
+.ml5{margin-left:5px !important;}
+.ml6{margin-left:6px !important;}
+.ml7{margin-left:7px !important;}
+.ml8{margin-left:8px !important;}
+.ml9{margin-left:9px !important;}
+.ml10{margin-left:10px !important;}
+.ml11{margin-left:11px !important;}
+.ml12{margin-left:12px !important;}
+.ml13 {margin-left:13px !important;}
+.ml14 {margin-left:14px !important;}
+.ml15 {margin-left:15px !important;}
+.ml17 {margin-left:17px !important;}
+.ml18 {margin-left:18px !important;}
+.ml20 {margin-left:20px !important;}
+.ml21 {margin-left:21px !important;}
+.ml22 {margin-left:22px !important;}
+.ml23 {margin-left:23px !important;}
+.ml24 {margin-left:24px !important;}
+.ml25 {margin-left:25px !important;}
+.ml26 {margin-left:26px !important;}
+.ml27 {margin-left:27px !important;}
+.ml28 {margin-left:28px !important;}
+.ml29 {margin-left:29px !important;}
+.ml30 {margin-left:30px !important;}
+.ml31 {margin-left:20px !important;}
+.ml32 {margin-left:20px !important;}
+.ml33 {margin-left:20px !important;}
+.ml34 {margin-left:34px !important;}
+.ml35 {margin-left:35px !important;}
+.ml40 {margin-left:40px !important;}
+.ml50 {margin-left:50px !important;}
+.ml55 {margin-left:55px !important;}
+.ml65 {margin-left:65px !important;}
+.ml70 {margin-left:70px !important;}
+.ml75 {margin-left:75px !important;}
+.ml76 {margin-left:76px !important;}
+.ml78 {margin-left:78px !important;}
+.ml80 {margin-left:80px !important;}
+.mr0 {margin-right:0px !important;}
+.mr1 {margin-right:1px !important;}
+.mr2 {margin-right:2px !important;}
+.mr3 {margin-right:3px !important;}
+.mr4 {margin-right:4px !important;}
+.mr5 {margin-right:5px !important;}
+.mr6 {margin-right:6px !important;}
+.mr7 {margin-right:7px !important;}
+.mr8 {margin-right:8px !important;}
+.mr9 {margin-right:9px !important;}
+.mr10 {margin-right:10px !important;}
+.mr11 {margin-right:11px !important;}
+.mr12 {margin-right:12px !important;}
+.mr13 {margin-right:13px !important;}
+.mr14 {margin-right:14px !important;}
+.mr15 {margin-right:15px !important;}
+.mr16 {margin-right:16px !important;}
+.mr17 {margin-right:17px !important;}
+.mr18 {margin-right:18px !important;}
+.mr19 {margin-right:19px !important;}
+.mr20 {margin-right:20px !important;}
+.mr21 {margin-right:20px !important;}
+.mr22 {margin-right:20px !important;}
+.mr23 {margin-right:20px !important;}
+.mr24 {margin-right:20px !important;}
+.mr25 {margin-right:25px !important;}
+.mr26 {margin-right:20px !important;}
+.mr27 {margin-right:20px !important;}
+.mr28 {margin-right:20px !important;}
+.mr29 {margin-right:20px !important;}
+.mr30 {margin-right:30px !important;}
+.mr34 {margin-right:34px !important;}
+.mr35 {margin-right:35px !important;}
+.mr40 {margin-right:40px !important;}
+.mr50 {margin-right:50px !important;}

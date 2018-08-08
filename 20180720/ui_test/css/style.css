@@ -1,0 +1,79 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+/* reset.css */
+html, body, div, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, address, dl, dt, dd, ol, ul, li, fieldset, form, legend, table, caption, tbody, tfoot, thead, tr, th, td, input, select, textarea{margin:0; padding:0;}
+h1, h2, h3, h4, h5, h6{font-size:100%;}
+img, fieldset{border:0px;}
+table{border-collapse:collapse;}
+ul, ol, li{list-style:none;}
+address, em{font-style:normal;}
+li img, object{vertical-align:top;}
+input, select, textarea, form img{vertical-align:middle;}
+a{ outline:1; text-decoration:none; border:nonbe;}
+body { font: 12px /1.2 Dotum, "돋움", arial; color:#666; background:#000;}
+.noMargin { margin:0px!important;}
+.bg {position:fixed; width:100%; height:100%; top:0px; left:0px;background:url(../img/bgPattern1.png) repeat 0px 0px; /*animation:ani linear 30s infinite;*/  opacity:0.8;}
+
+/* frame layout */
+#wrap {width:1000px; height:500px; position:fixed; top:50%; left:50%; margin-top:-250px; margin-left:-500px;}
+#wrap>div {width:300px; height:100%; position:absolute; perspective:600px; transition:all 1s;}
+.front h2 {width:100%; font:normal 40px/1 "orbitron"; color:#ddd; position:absolute; top:50%; left:0%; margin-top:-60px;text-align:center; text-shadow:3px 3px 3px rgba(0,0,0,0.3); transition:all 1s;}
+.front:hover h2 { margin-top:-100px;}
+.front video { height:100%; width:513px; position:absolute; top:0px; left:50%; margin-left:-256px; opacity:0; transition:all 1s; }
+.front:hover video {opacity:1;}
+#wrap>div .deco {width:0px; height:100%; background:#222; position:absolute; top:0px; left:0px; transition:all 1s;}
+#wrap>div .con {width:750px; height:100%; position:absolute; top:0px; right:0px; box-sizing:border-box; padding:50px; }
+#wrap>div.wide {width:1000px;}
+#wrap>div.wide .deco { width:250px;}
+#wrap>#box1 {left:0px;}
+#wrap>#box2 {left:350px;}
+#wrap>#box3 {right:0px;}
+
+/*box flip*/
+#wrap>div>div {position:absolute; width:100%; height:100%; top:0px; left:0px;backface-visibility:hidden; transition:all 1.5s; overflow:hidden;}
+#wrap>div>.front { background:#444; transform:rotateY(0deg);}
+#wrap>div>.back {background:#333; transform:rotateY(180deg);}
+#wrap>div.on>.front {transform:rotateY(-180deg);}
+#wrap>div.on>.back {transform:rotateY(0deg);}
+
+
+/*button hoever motion*/
+#wrap>div>.front>span {display:inline-block; width:30px; height:30px; background:#fff; position:absolute; left:50%; margin-left:-15px; top:50%; margin-top:50px; border-radius:15px; cursor:pointer; overflow:hidden; transition:all 0.5s; box-shadow:5px 5px 5px rgba(0,0,0,0.4);}
+#wrap>div>.front>span:hover {width:100px; margin-left:-50px;}
+#wrap>div>.front>span>em {display:inline-block; width:30px; height:30px; position:absolute; top:0px; left:0px; font:20px/30px "arial"; text-align:center; transition:all 0.5s;}
+#wrap>div>.front>span:hover>em {transform:rotate(270deg); opacity:0; transition:all 0.5s;}
+#wrap>div>.front>span>b {display:inline-block; width:100px; height:300px; font:12px/30px "orbitron"; color:#555; text-align:center; position:absolute; top:0px; left:0px; opacity:0; transition:all 0.5s; }
+#wrap>div>.front>span:hover>b {opacity:1; }
+#wrap>div>.back>span {position:absolute; top:20px; right:20px; font:30px/1 "arial"; color:#ddd; cursor:pointer; transition:all 0.5s; transform:rotate(45deg);}
+
+/*box1 on*/
+#wrap.box1>#box1 { opacity:1; transform:translateX(0px); left:0px;}
+#wrap.box1>#box2 { opacity:0; transform:translateX(700px);transition:all 1.5s 0.2s;}
+#wrap.box1>#box3 { opacity:0; transform:translateX(700px); transition:all 1.5s 0s;}
+
+
+
+/*box2 on*/
+#wrap.box2>#box1 { opacity:0; transform:translateX(700px);transition:all 1.5s 0.2s;}
+#wrap.box2>#box2 { opacity:1; transform:translateX(0px); left:0px;}
+#wrap.box2>#box3 { opacity:0; transform:translateX(700px); transition:all 1.5s 0s;}
+
+/*box3 on*/
+#wrap.box3>#box1 { opacity:0; transform:translateX(700px);transition:all 1.5s 0.2s;}
+#wrap.box3>#box2 { opacity:0; transform:translateX(700px); transition:all 1.5s 0s;}
+#wrap.box3>#box3 { opacity:1; transform:translateX(0px); }
+
+
+@keyframes ani {
+    0% {background-position:0px 0px;}
+    100% {background-position:338px 323px;}
+}
+
+
+
+
+
+
+
+
+

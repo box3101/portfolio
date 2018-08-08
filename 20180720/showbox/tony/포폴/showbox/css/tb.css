@@ -1,0 +1,408 @@
+/*타블렛 구간*/
+@media screen and (min-width:560px) and (max-width:959px) {
+
+  /* layout */
+  #showimage{display: none;}
+
+
+  #header{width: 100%; height: 70px;}
+  .visualWrap{width: 100%;}
+  #slider{
+    height: 650px;
+    background:url(../img/s1.jpg) 26% 100% no-repeat!important;
+  }
+  #content{padding: 0 20px; box-sizing: border-box;}
+  #footer{width: 100%; height: 120px; }
+/* header */
+
+ul.sns{
+  display: none;
+}
+ul.quick{
+  display: none;
+}
+.topSearch{
+  display: none;
+}
+.logo{
+  position: absolute;
+  left: 50%; margin-left: -77.5px;
+}
+#gnb{
+  display: none;
+}
+#togleGnb{
+  display: none;
+  text-indent: -9999px;
+}
+
+  /* CONTOP,CON1,CON2 sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+  sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss*/
+   #content{
+     padding:0 20px;
+     box-sizing: border-box;
+   }
+  .conTop{
+    width: 100%;
+    margin-top: 25px;
+  }
+  .con1{
+    width: 100.0%;
+    margin-right: 0%;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .con11{
+    width: 50%; height: 200px;
+  }
+  .con11 video{
+    display: block;
+    width: 100%!important; height: 200px!important;
+  }
+  .con12{
+    width:50%; height: 200px;
+    padding: 15px 15px;
+  }
+  .con2{
+    float: left;
+    width: 100%;
+    text-align: center;
+  }
+  .con2>ul>li>a{
+    width: 100%;
+  }
+  ul.con12Btn{
+    display: none;
+  }
+
+  /* CONMIDDLE,CON3,CON4 sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+  sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss*/
+
+  .conMiddleWrap{
+    padding: 30px 0;
+    margin-top: 30px;
+  }
+  .conMiddle{
+    width: 100%;
+  }
+  .con3{
+    width: 49%;
+    margin-right: 2%;
+  }
+  .con31{
+    width: 50%; height: 230px;
+  }
+  ul.list{
+    width: 100%; height: 230px;
+  }
+  .con32{
+    width: 50%; height: 230px;
+    overflow-y: auto;
+  }
+
+  .con4{
+    width: 49%;
+  }
+  .con4>.border{
+    height: 230px;
+  }
+  .con41{
+    width: 49%;
+    margin-right: 2%;
+  }
+  .con42{
+    width: 49%;
+  }
+  .con4 .img{
+    width: 100%;
+  }
+
+  /* CONBOTTON,CON5,CON6 sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+  sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss*/
+
+  .conBottom{
+    width: 100%;
+    margin-top: 30px;
+  }
+  .con5{
+    width: 63%;
+    margin-right: 2%;
+  }
+  .con6,.con7{
+    width: 35%;
+    margin-right: 0%;
+  }
+  .con7{
+    display: none;
+  }
+  .fblike{
+    width: 100%;
+  }
+  .fblike>.img{
+    width: 39%;
+  }
+  .fblike>.img2{
+    width: 6%;
+    margin-top: 20px; margin-left: 2%;
+  }
+  .fblike>.snsContent{
+    float: left;
+    width: 51%;
+    margin-left: 2%;
+  }
+  .recruit{
+    width: 100%;
+   }
+
+  /* HISTORY sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+  sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss*/
+
+  .historyWrap{
+    width: 100%;
+  }
+  .historyWrap .left{
+    display: none;
+  }
+  .historyWrap .right{
+    display: none;
+  }
+  .history{
+    width: 100%;
+  }
+  ul.history-contents{
+    width: 204%;
+  }
+  ul.history-contents>li{
+    width: 12%;
+    float: left;
+    perspective:700px;
+    margin-right: 1%;
+  }
+  ul.history-contents>li>a{
+    width: 100%;
+  }
+  ul.history-contents>li:hover>a{
+    transform: rotateY(-180deg);
+    backface-visibility: visible;
+    opacity: 0.3;
+  }
+
+  .thumb{display: none;}
+
+  ul.con12Btn{
+  display: none;
+  }
+
+  /* FOOTER sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+  sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss*/
+
+}
+
+/*모바일 구간*/
+@media screen and (min-width:0px) and (max-width:559px) {
+
+    /* layout */
+
+    #showimage{display: none;}
+    #header{width: 100%; height: 70px; border-bottom: 1px solid #fff;}
+    .visualWrap{width: 100%;}
+    #slider{height: 450px; background:url(../img/s1.jpg) 31% 83% no-repeat!important;}
+    #footer{width: 100%; height: 120px; }
+    h2{font-size: 23px; margin-bottom: 42px!important;}
+  /* header */
+
+  ul.sns{
+    display: none;
+  }
+  ul.quick{
+    display: none;
+  }
+  .topSearch{
+    display: none;
+  }
+  .logo{
+    position: absolute;
+    left: 50%; margin-left: -77.5px;
+  }
+  #gnb{
+    display: none;
+  }
+  .slide{
+    margin-left: -45px;
+  }
+  .slide>li>a{
+    width: 9px; height: 9px;
+  }
+  .menuBtn{
+    top: 50%; margin-top: -9px;
+    opacity: 1;
+    cursor: pointer;
+  }
+  #togleGnb{
+    width: 100%; height: 360px;
+    position: absolute;
+    top: 71px;
+    overflow-y: scroll;
+    text-indent: 0 !important;
+    display: none;
+  }
+  #togleGnb a{
+    display: block;
+    width: 100%; height: 90px;
+    font:bold 15px/90px "arial"; color: #fff;
+    text-align: center;
+    background: rgba(0,0,0,0.85);
+    transition: all 1s;
+    letter-spacing: -1px;
+  }
+  #togleGnb a:hover{
+    color: #Aaa;
+  }
+    /* CONTOP,CON1,CON2 sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+    sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss*/
+     #content{
+       text-align: center;
+       padding: 0 20px;
+       box-sizing: border-box;
+     }
+    .conTop{
+      width: 100%;
+      margin-top: 42px;
+    }
+    .con1{
+      width: 100%;
+      margin-right: 0%;
+      margin-bottom: 42px;
+    }
+    .con11{
+      width: 50%; height: 200px;
+    }
+    .con11 video{
+      display: block;
+      width: 100%!important; height: 200px!important;
+    }
+    .con12{
+      width:50%; height: 200px;
+      padding: 15px 15px;
+    }
+    .con2>ul>li>a{
+      width: 100%;
+      text-indent: 0;
+    }
+    .con2{
+      float: left;
+      width: 100%;
+    }
+    .con2>ul>li>a>p{
+      text-align: center;
+      text-indent: 0;
+    }
+    ul.con12Btn{
+      display: none;
+    }
+
+    /* CONMIDDLE,CON3,CON4 sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+    sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss*/
+
+    .conMiddleWrap{
+      padding: 42px 0;
+      margin-top: 0px;
+      background: #fff;
+    }
+    .conMiddle{
+      width: 100%;
+    }
+    .con3{
+      width: 100%;
+      margin-right: 0%;
+      margin-bottom: 50px;
+    }
+    .con31{
+      width: 50%; height: 230px;
+    }
+    ul.list{
+      width: 100%; height: 230px;
+    }
+    .con32{
+      width: 50%; height: 230px;
+      overflow-y: auto;
+    }
+    .arrow{
+      display: none;
+    }
+    .con4{
+      width: 100%;
+    }
+    .con4 dl{
+      text-align: justify;
+    }
+    .con4>.border{
+      height: 230px;
+      overflow-y: scroll;
+    }
+    .con41{
+      width: 100%;
+      margin-right: 0%;
+    }
+    .con42{
+      width: 100%;
+    }
+    .con4 .img{
+      width: 100%;
+    }
+
+    /* CONBOTTON,CON5,CON6 sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+    sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss*/
+
+    .conBottom{
+      width: 100%;
+      margin-top: 0px;
+    }
+    .con5{
+      width: 100%;
+      margin-right: 0%;
+    }
+    .con6,.con7{
+      width: 100%;
+      margin-right: 0%;
+    }
+    .con7{
+      display: none;
+    }
+    .fblike{
+      width: 100%;
+      padding-bottom: 50px !important;
+    }
+    .fblike>.img{
+      width: 39%;
+    }
+    .fblike>.img2{
+      width: 6%;
+      margin-top: 20px; margin-left: 2%;
+    }
+    .fblike>.snsContent{
+      float: left;
+      width: 51%;
+      margin-left: 2%;
+    }
+    .recruit{
+      width: 100%;
+      margin-bottom: 30px;
+     }
+
+    /* HISTORY sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+    sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss*/
+
+    .historyWrap{
+      display: none;
+    }
+
+
+
+  /* footer */
+  #footer>h1{position: absolute; top: 50%; margin-top: -50px; left: 50%; margin-left: -40px;}
+  .company{display: none;}
+  address{display: none;}
+  .select{display: none;}
+  .fotSns{display: none;}
+}

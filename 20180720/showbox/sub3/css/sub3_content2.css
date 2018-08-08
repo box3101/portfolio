@@ -1,0 +1,40 @@
+.leftNav>li:nth-child(3)>a{color: #FFCC00;}
+
+/* content */
+.contentArea{
+  margin-top: 60px;
+  padding: 50px 45px;
+  overflow: hidden;
+}
+.movienow{
+  width: 600px;
+  margin-bottom: 40px;
+  background: #ccc;
+  padding: 20px 20px 30px 20px;
+  position: relative;
+  overflow: hidden;
+}
+.img{
+  float: left;
+  width: 176px; height: 254px;
+  background: #000;
+  margin-top: 20px;
+}
+.info{
+  float: right;
+  width: 384px;
+  background: #000;
+  margin-top: 20px;
+}
+.info>p.header{
+  font-weight: bold; font-size: 18px; margin: 7px 0;
+}
+.info>p{
+  font:15px/1.5 "맑은고딕"; color: red;
+}
+a.readmore{
+  position: absolute;
+  bottom: 10px; right: 20px;
+  color: #000;
+}
+.on{display: none;}

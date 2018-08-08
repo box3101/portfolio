@@ -1,0 +1,180 @@
+/* 핸드폰 구간 eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee*/
+@media screen and (min-width:0px) and (max-width:559px){
+  .headerWrap{
+    margin-top: -60px;
+  }
+  #header{
+    width: 100%;
+  }
+  #contents{
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+  #visual{
+    width: 100%; height: 350px;
+  }
+
+  #footer{
+    width: 100%;
+  }
+  /* header */
+  #header span{
+    margin: 0 3px;
+  }
+  .topMemu{
+    display: none;
+  }
+  .logo{
+    position: absolute;
+    top: 70px;
+    left: 50%; margin-left: -70px;
+  }
+  .util{
+    display: none;
+  }
+  .topbtn{
+    display: none;
+  }
+  #gnb{
+    display: none;
+  }
+
+  /* visual */
+  .vis01{
+   display: none;
+  }
+
+  .vis02{
+    display: none;
+  }
+
+  /* con1 */
+  .con1{
+    display: none;
+  }
+  .con2{
+    width: 100%;
+    margin-top: 30px; padding-bottom: 45px;
+  }
+  .con2 h2{
+    margin-bottom: 25px;
+  }
+  .con2 h3{
+    margin-bottom: 10px;
+  }
+  .con2>div{
+    width: 100%;
+    margin-right: 0%;
+  }
+  .con23{
+    margin-right: 0% !important;
+  }
+  .con2>div>div{
+    padding: 20px;
+  }
+  .slide{
+    display: none;
+  }
+  /* con3 */
+  .con3{
+    width: 100%;
+  }
+  .con3 h4{
+    margin-bottom: 10px;
+  }
+  .con3 img{
+    margin-top: 30px;
+  }
+  .con4{
+    width: 100%;
+    margin-right: 0%; margin-top: 30px; margin-bottom: 30px;
+  }
+  .con4>div{
+    width: 100%; height: 150px;
+    padding: 25px 15px;
+    text-align: center;
+    margin-bottom: 8px;
+  }
+  .con4>div>img{
+    display: none;
+  }
+  .con5{
+    display: none;
+  }
+  .moreBtn{
+    display: none;
+  }
+  /* con6 */
+  .con6{
+    width: 100%;
+    margin-top: 40px;
+  }
+  .con6>div{
+    width: 50%;
+  }
+  .con65{
+    display: none;
+  }
+  .con66{
+    display: none;
+  }
+  .con67 {
+    display: none;
+  }
+  /* con7 */
+  .con7{
+    width: 100%;
+    margin-top: 20px;
+  }
+  .con71{
+    width: 100%; height: 120px;
+    padding: 30px 25px;
+    text-align: center;
+  }
+  .con72{
+    display: none;
+  }
+  /* con8 */
+  .con8{
+    width: 100%;
+    margin-top: 40px;
+  }
+  .con8>h2{
+    margin-bottom: 22px;
+  }
+  .con8>ul>li{
+    width: 100%;
+  }
+  .con8>ul>li:last-child{
+    width: 100%;
+  }
+  .con81{
+    width: 100%; height: 220px;
+    margin-bottom: 50px;
+  }
+
+  /* #footer */
+  .fotmenu{
+    display: none;
+  }
+  .botBtn{
+    display: none;
+  }
+  .botLogo{
+    position: absolute;
+    left: 50%; margin-left: -86px;
+    bottom: 0px;
+  }
+  #footer p.fotTop{
+    display: none;
+  }
+  #footer p{
+    display: none;
+  }
+  .sns{
+    display: none;
+  }
+  .QikBtn{
+    display: none;
+  }
+  }

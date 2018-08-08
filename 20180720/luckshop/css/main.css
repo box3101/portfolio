@@ -1,0 +1,1247 @@
+.container{
+  width: 1200px;
+  margin: 0 auto;
+}
+.header-top{
+  border: 1px solid #eee;
+  box-shadow: 1px 4px 5px rgba(0,0,0,0.09);
+}
+.header-top .company-info{
+  float: left;
+  border-right: 1px solid #eee;
+}
+.header-top .company-info ul li{
+  float: left;
+}
+.header-top ul li a{
+  display: inline-block;
+  padding: 20px 30px;
+  color: #666;
+  font-size: 14px;
+  border-left: 1px solid #eee;
+}
+.header-top .set-up{
+  float: right;
+  border-right: 1px solid #eee;
+}
+.header-top .set-up ul li{
+  float: left;
+}
+.header-middle{
+  padding: 45px;
+  position: relative;
+}
+.header-middle .menu-btn{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  display: none;
+}
+.header-middle h1.logo{
+  float: left;
+  width: 20%;
+  padding-top: 15px;
+}
+.header-middle h1.logo a{
+  display: inline-block;
+}
+.header-middle .search-inner{
+  float: left;
+  width: 60%;
+  border: 3px solid #eee;
+  padding: 10px 0;
+  position: relative;
+}
+.header-middle .search-inner .categories{
+  float: left;
+  border-right: 2px solid #eee;
+}
+.header-middle .search-inner .categories a{
+  padding: 10px 12px 10px 32px;
+  display: inline-block;
+  color: #666;
+  font-size: 14px;
+}
+.header-middle .search-inner .categories i{
+  margin-left: 25px;
+}
+.header-middle .search-inner .search{
+  float: left;
+  padding: 10px 0;
+  margin-left: 20px;
+  width: 60%;
+}
+#search-btn{
+  width: 100%;
+  font-size: 13px;
+  color: #aaa;
+  padding-left: 50px;
+  display: inline-block;
+}
+.header-middle .search-inner .search-btn{
+  position: absolute;
+  top: 2px;
+  right: 2px;
+}
+.header-middle .search-inner .search-btn a{
+  display: inline-block;
+  background: #eec15b;
+  color: #fff;
+  width: 53px;
+  height: 53px;
+  text-align: center;
+}
+.header-middle .search-inner .search-btn a i{
+  font-size: 16px;
+  padding-top: 17px;
+}
+.header-middle .basket{
+  float: right;
+  right: 0;
+  width: 20%;
+  padding-left: 80px;
+}
+.header-middle .basket a{
+  padding: 18px 40px;
+  display: inline-block;
+  background: #f5f5f5;
+  border-radius: 30px;
+  color: #666666;
+  font-size: 13px;
+}
+.header-middle .basket a i{
+  margin-right: 5px;
+}
+.header-bottom ul.gnb{
+  background: #3D3D3D;
+}
+.header-bottom ul.gnb li.nav-item{
+  float: left;
+  position: relative;
+}
+.header-bottom ul.gnb li.nav-item a{
+  display: inline-block;
+  padding: 25px 40px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+}
+.header-bottom ul.gnb li.nav-item .sub-menu{
+  position: absolute;
+  z-index: 100;
+  background-color: #f9f9f9;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  display: none;
+}
+.header-bottom ul.gnb li.nav-item .sub-menu a:hover{
+  transition: all 0.2s;
+  background-color: #eee;
+  color: #eec15b;
+}
+.header-bottom ul.gnb li.nav-item .sub-menu a{
+  display: block;
+  padding: 20px 20px;
+  color: #666666;
+  font-size: 13px;
+  border-bottom: 1px solid #eee;
+}
+.header-bottom ul.gnb li.nav-item:hover .sub-menu{
+  display: block;
+}
+.header-bottom ul.gnb li.nav-item:hover a.dropbtn{
+  background: #eec15b;
+}
+.header-bottom ul.gnb li.nav-item:last-child .sub-menu{
+  right: 0;
+}
+#content a:hover{
+  transition: all 0.7s;
+  color: #eec15b;
+}
+section.main-wrap{
+  text-align: center;
+}
+section.main-wrap .slider {
+  position: relative;
+}
+section.main-wrap .slider .link1{
+  background: #fff url(http://kute-themes.com/html/luckyshop/html/images/sliders/10.jpg) 0 0 no-repeat;
+  height: 470px;
+}
+section.main-wrap .slider .link2{
+  background: #fff url(http://kute-themes.com/html/luckyshop/html/images/sliders/11.jpg) 0 0 no-repeat;
+  height: 470px;
+}
+section.main-wrap .slider .link3{
+  background: #fff url(http://kute-themes.com/html/luckyshop/html/images/sliders/12.jpg) 0 0 no-repeat;
+  height: 470px;
+}
+section.main-wrap .slider .link4{
+  background: #fff url(http://kute-themes.com/html/luckyshop/html/images/sliders/9.jpg) 0 0 no-repeat;
+  height: 470px;
+}
+section.main-wrap .slider ul.slick-pager li.slick-active button{
+  background: #ffcc00;
+}
+section.main-wrap .slider button.slick-prev{
+  position: absolute;
+  top: 40%;
+  left: -65px;
+  background: #fff url(images/skip_left.png) 0 0 no-repeat;
+  width: 35px;
+  height: 53px;
+  text-indent: -9999em;
+  border:0;
+  outline: 0;
+}
+section.main-wrap .slider button.slick-next{
+  position: absolute;
+  top: 40%;
+  right: -65px;
+  background: #fff url(images/skip_right.png) 0 0 no-repeat;
+  width: 35px;
+  height: 53px;
+  text-indent: -9999em;
+  border:0;
+  outline: 0;
+}
+section.main-wrap .slider ul.slick-pager{
+  display: inline-block;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translate(-50%,0);
+}
+section.main-wrap .slider ul.slick-pager li {
+  float: left;
+}
+section.main-wrap .slider ul.slick-pager li button{
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  text-indent: -9999em;
+  border:0;
+  background: #666;
+  margin: 0 5px;
+  outline:0;
+  display: inline-block;
+}
+section.main-wrap .text{
+  display: inline-block;
+  padding-top: 177px;
+}
+section.main-wrap .text h3{
+  color:#484343;
+  font-size: 15px;
+}
+section.main-wrap .text h2{
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color:#484343;
+}
+section.main-wrap .text a{
+  display: inline-block;
+  margin-top: 40px;
+  color:#484343;
+  font-style: italic;
+  text-decoration : underline;
+}
+.title{
+  float: left;
+  margin-left: 30px;
+}
+.title h2{
+  font-size: 24px;
+  text-transform: uppercase;
+  line-height: normal;
+}
+.title h2:after{
+  content: '';
+  display: table;
+  width: 100%;
+  border-bottom: 2px solid #eec15b;
+}
+.sub-title{
+  float: right;
+  margin-right: 93px;
+}
+.sub-title ul li {
+  float: left;
+}
+.sub-title ul li a{
+  color: #666;
+  display: inline-block;
+  padding: 10px 25px;
+  font-size: 14px;
+}
+.sub-title ul li:hover a{
+  transition: all 0.7s;
+  color: #eec15b;
+}
+.sub-title ul li:first-child a{
+  color:#eec15b;
+}
+section.furniture{
+  margin-top: 40px;
+}
+section.furniture .main-img{
+  float: left;
+  width: 25%;
+  overflow: hidden;
+  background: #fff url(http://kute-themes.com/html/luckyshop/html/images/banners/18.jpg) 50% 50% no-repeat;
+  height: 529px;
+  background-size:cover;
+}
+section.furniture .menu-bar{
+  float: left;
+  width: 75%;
+  padding: 17px 0;
+  border: 1px solid #eee;
+}
+section.furniture .furnitures {
+  float: left;
+  width: 75%;
+}
+section.furniture .furnitures ul li{
+  float: left;
+  width: 50%;
+  padding: 15px 10px;
+  border-right: 1px solid #f0f0f0;
+  border-bottom: 1px solid #f0f0f0;
+}
+section.furniture .furnitures .furniture-item{
+  position: relative;
+}
+section.furniture .furnitures .furniture-item .img{
+  position: relative;
+  text-align: center;
+  float: left;
+  width: 35%;
+  background: #fff url(http://kute-themes.com/html/luckyshop/html/images/products/1.jpg) 50% 50% no-repeat;
+  background-size: cover;
+  height: 213px;
+}
+section.furniture .furnitures .furniture-item .second-img{
+  position: absolute;
+  top: 0; left: 200px; right: 0; bottom: 0;
+  transition: all 0.7s;
+  background: #fff url(http://kute-themes.com/html/luckyshop/html/images/products/2.jpg) 50% 50% no-repeat;
+  background-size: cover;
+}
+section.furniture .furnitures .furniture-item:hover .second-img{
+  left: 0;
+}
+a.quick-view{
+  position: absolute;
+  top: 46%; left: 50%; transform: translate(-50%,0);
+  background: #999;
+  font-size: 11px;
+  color: #fff;
+  padding: 7px 9px;
+  display: none;
+}
+a.quick-view:hover{
+  transition: all 0.7s;
+  background: #eec15b;
+}
+section.furniture .furnitures .furniture-item:hover a.quick-view{
+  display: block;
+}
+section.furniture .furnitures .furniture-item .second{
+  background: #fff url(http://kute-themes.com/html/luckyshop/html/images/products/2.jpg) 50% 50% no-repeat;
+  background-size: cover;
+}
+section.furniture .furnitures .furniture-item .third{
+  background: #fff url(http://kute-themes.com/html/luckyshop/html/images/products/3.jpg) 50% 50% no-repeat;
+  background-size: cover;
+}
+section.furniture .furnitures .furniture-item .fourth{
+  background: #fff url(http://kute-themes.com/html/luckyshop/html/images/products/4.jpg) 50% 50% no-repeat;
+  background-size: cover;
+}
+.info{
+  float: right;
+  padding-top: 30px;
+  width: 65%;
+
+}
+.info a{
+  font-size: 14px;
+  color: #333;
+  display: inline-block;
+  margin-bottom: 7px;
+  padding: 5px;
+}
+.info a:hover{
+  transition: all 0.7s;
+  color: #eec15b;
+}
+.info p{
+  margin-left: 5px;
+}
+li:first-child .info p{
+  color:red;
+}
+.group-btn{
+  padding-top: 25px;
+  margin-left: 20px;
+}
+.group-btn a{
+  padding: 12px;
+  background:  #999;
+  border-radius: 50%;
+  margin-right : 5px;
+  transform: scale(0);
+  font-size: 14px;
+}
+.group-btn a:hover{
+  background: #eec15b;
+}
+section.furniture .furnitures .furniture-item:hover .group-btn a{
+  transition: all 0.7s;
+  transform: scale(1);
+}
+.group-btn a i{
+  color: #fff;
+}
+section.Disital{
+  margin-top: 40px;
+}
+section.Disital .menu-bar{
+  padding: 17px 0;
+  border: 1px solid #eee;
+}
+section.Disital .product ul li{
+  float: left;
+  width: 25%;
+  padding: 10px;
+  border-right: 1px solid #f0f0f0;
+  border-bottom: 1px solid #f0f0f0;
+  overflow: hidden;
+}
+section.Disital .product .product-item .img{
+  background: #fff url(http://kute-themes.com/html/luckyshop/html/images/products/43.jpg) 50% 50% no-repeat;
+  height: 350px;
+  background-size: cover;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+section.Disital .product .product-item .img2{
+  background: #fff url(http://kute-themes.com/html/luckyshop/html/images/products/44.jpg) 50% 50% no-repeat;
+  height: 350px;
+  background-size: cover;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+section.Disital .product .product-item .img3{
+  background: #fff url(http://kute-themes.com/html/luckyshop/html/images/products/45.jpg) 50% 50% no-repeat;
+  height: 350px;
+  background-size: cover;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+section.Disital .product .product-item .img4{
+  background: #fff url(http://kute-themes.com/html/luckyshop/html/images/products/46.jpg) 50% 50% no-repeat;
+  height: 350px;
+  background-size: cover;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+section.Disital .product .product-item .second-img{
+  position: absolute;
+  top: 0; left: 500px; right: 0; bottom: 0px;
+  transition: all 0.7s;
+  background: #fff url(http://kute-themes.com/html/luckyshop/html/images/products/44.jpg) 50% 50% no-repeat;
+  height: 350px;
+  width: 100%;
+  background-size: cover;
+}
+section.Disital .product .product-item:hover .second-img{
+  left: 0;
+}
+section.Disital .product .product-item a.quick-view{
+  top: 10px; left: 45px;
+}
+section.Disital .product .product-item:hover a.quick-view{
+  display: block;
+}
+section.Disital .product .product-item .second{
+  background: #fff url(http://kute-themes.com/html/luckyshop/html/images/products/45.jpg) 50% 50% no-repeat;
+  height: 350px;
+  width: 100%;
+  background-size: cover;
+}
+section.Disital .product .product-item .third{
+  background: #fff url(http://kute-themes.com/html/luckyshop/html/images/products/46.jpg) 50% 50% no-repeat;
+  height: 350px;
+  width: 100%;
+  background-size: cover;
+}
+section.Disital .product .product-item .fourth{
+  background: #fff url(http://kute-themes.com/html/luckyshop/html/images/products/43.jpg) 50% 50% no-repeat;
+  height: 350px;
+  width: 100%;
+  background-size: cover;
+}
+section.Disital .product .product-item .group-btn{
+  position: absolute;
+  bottom: 12px; left: 50%;
+  transform: translate(-50%,0);
+  padding-top: 0;
+  margin: 0;
+}
+section.Disital .product .product-item .group-btn a{
+  padding: 11px;
+  display: inline-block;
+}
+section.Disital .product .product-item:hover .group-btn a{
+  transition: all 0.7s;
+  transform: scale(1);
+}
+section.Disital .product .product-item .story{
+  text-align: center;
+  padding-top: 10px;
+}
+section.Disital .product .product-item .story a{
+  font-size: 15px;
+  color: #333;
+  display: inline-block;
+  margin-bottom: 12px;
+}
+section.Disital .product .product-item .story p{
+  font-size: 15px;
+}
+section.Disital .banner-img{
+  background: #fff url(http://kute-themes.com/html/luckyshop/html/images/banners/19.jpg) 50% 50% no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  height: 218px;
+}
+section.fashion{
+  margin-top: 40px;
+}
+section.fashion .main-img{
+  float: left;
+  width: 25%;
+  overflow: hidden;
+  background: #fff url(http://kute-themes.com/html/luckyshop/html/images/banners/20.jpg) 50% 50% no-repeat;
+  height: 529px;
+  background-size: cover;
+}
+section.fashion .menu-bar{
+  float: left;
+  width: 75%;
+  padding: 10px 0;
+  border: 1px solid #f0f0f0;
+}
+section.fashion .fashion-list {
+  float: left;
+  width: 75%;
+}
+section.fashion .fashion-list ul li{
+  float: left;
+  width: 50%;
+  padding: 15px 10px;
+  border-right: 1px solid #f0f0f0;
+  border-bottom: 1px solid #f0f0f0;
+}
+section.fashion .fashion-list .fashion-item{
+  position: relative;
+}
+section.fashion .fashion-list .fashion-item .img{
+  position: relative;
+  text-align: center;
+  float: left;
+  width: 35%;
+  background: #fff url(http://kute-themes.com/html/luckyshop/html/images/products/35.jpg) 50% 50% no-repeat;
+  background-size: cover;
+  height: 213px;
+}
+section.fashion .fashion-list .fashion-item .second-img{
+  position: absolute;
+  top: 0; left: 300px; right: 0; bottom: 0;
+  transition: all 0.7s;
+  background: #fff url(http://kute-themes.com/html/luckyshop/html/images/products/36.jpg) 50% 50% no-repeat;
+  background-size: cover;
+}
+section.fashion .fashion-list .fashion-item:hover .second-img{
+  left: 0;
+}
+section.fashion .fashion-list .fashion-item:hover a.quick-view{
+  display: block;
+}
+section.fashion .fashion-list .fashion-item .second{
+  background: #fff url(http://kute-themes.com/html/luckyshop/html/images/products/36.jpg) 50% 50% no-repeat;
+  background-size: cover;
+}
+section.fashion .fashion-list .fashion-item .third{
+  background: #fff url(http://kute-themes.com/html/luckyshop/html/images/products/38.jpg) 50% 50% no-repeat;
+  background-size: cover;
+}
+section.fashion .fashion-list .fashion-item .fourth{
+  background: #fff url(http://kute-themes.com/html/luckyshop/html/images/products/37.jpg) 50% 50% no-repeat;
+  background-size: cover;
+}
+section.fashion .fashion-list .fashion-item:hover .group-btn a{
+  transition: all 0.7s;
+  transform: scale(1);
+}
+section.Home-decoration{
+  margin-top: 40px;
+}
+section.Home-decoration .menu-bar{
+  padding: 17px;
+  border-bottom: 1px solid #f0f0f0;
+}
+section.Home-decoration .product li{
+  float: left;
+  width: 25%;
+  padding: 10px;
+  border-right: 1px solid #f0f0f0;
+  border-bottom: 1px solid #f0f0f0;
+}
+section.Home-decoration .product li .img{
+  background: #fff url(http://kute-themes.com/html/luckyshop/html/images/products/1.jpg) 50% 50% no-repeat;
+  height: 350px;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+}
+section.Home-decoration .product li .second{
+background: #fff url(http://kute-themes.com/html/luckyshop/html/images/products/3.jpg) 50% 50% no-repeat;
+}
+section.Home-decoration .product li .third{
+background: #fff url(http://kute-themes.com/html/luckyshop/html/images/products/4.jpg) 50% 50% no-repeat;
+}
+section.Home-decoration .product li .fourth{
+background: #fff url(http://kute-themes.com/html/luckyshop/html/images/products/5.jpg) 50% 50% no-repeat;
+}
+section.Home-decoration .product li .fifth{
+background: #fff url(http://kute-themes.com/html/luckyshop/html/images/products/6.jpg) 50% 50% no-repeat;
+}
+section.Home-decoration .product li .sixth {
+background: #fff url(http://kute-themes.com/html/luckyshop/html/images/products/7.jpg) 50% 50% no-repeat;
+}
+section.Home-decoration .product li .seventh {
+background: #fff url(http://kute-themes.com/html/luckyshop/html/images/products/8.jpg) 50% 50% no-repeat;
+}
+section.Home-decoration .product li .eighth {
+background: #fff url(http://kute-themes.com/html/luckyshop/html/images/products/9.jpg) 50% 50% no-repeat;
+}
+section.Home-decoration .product .product-item a.quick-view{
+  top: 10px; left: 45px;
+}
+section.Home-decoration .product .product-item:hover a.quick-view{
+  display: block;
+}
+section.Home-decoration .product .product-item .group-btn{
+  position: absolute;
+  bottom: 12px; left: 50%;
+  transform: translate(-50%,0);
+  padding-top: 0;
+  margin: 0;
+}
+section.Home-decoration .product .product-item .group-btn a{
+  padding: 11px;
+  display: inline-block;
+}
+section.Home-decoration .product .product-item:hover .group-btn a{
+  transition: all 0.7s;
+  transform: scale(1);
+}
+section.Home-decoration .product .product-item .story{
+  text-align: center;
+  padding-top: 10px;
+}
+section.Home-decoration .product .product-item .story a{
+  font-size: 15px;
+  color: #333;
+  display: inline-block;
+  margin-bottom: 12px;
+}
+section.Home-decoration .product .product-item .story p{
+  font-size: 15px;
+}
+section.Home-decoration .product .product-item .second-img{
+  position: absolute;
+  top: 0; left: 500px; right: 0; bottom: 0;
+  transition: all 0.7s;
+  background: #fff url(http://kute-themes.com/html/luckyshop/html/images/products/4.jpg) 50% 50% no-repeat;
+  background-size: cover;
+}
+section.Home-decoration .product .product-item:hover .second-img{
+  left: 0;
+}
+section.Home-decoration .product .product-item .img .second{
+  background: #fff url(http://kute-themes.com/html/luckyshop/html/images/products/2.jpg) 50% 50% no-repeat;
+  background-size: cover;
+}
+section.Home-decoration .product .product-item .img .third{
+  background: #fff url(http://kute-themes.com/html/luckyshop/html/images/products/3.jpg) 50% 50% no-repeat;
+  background-size: cover;
+}
+section.Home-decoration .product .product-item .img .fourth{
+  background: #fff url(http://kute-themes.com/html/luckyshop/html/images/products/5.jpg) 50% 50% no-repeat;
+  background-size: cover;
+}
+section.From-our-blog{
+  margin-top: 40px;
+}
+section.From-our-blog h2{
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 20px;
+  color: #666666;
+}
+section.From-our-blog p{
+  margin-top: 20px;
+  text-align: center;
+  font-size: 12px;
+}
+section.From-our-blog .blogs{
+  padding-top: 30px;
+}
+section.From-our-blog .blogs ul li{
+  float: left;
+  width: 33.3%;
+  padding: 0 15px;
+}
+section.From-our-blog .blogs ul li .blog-list{
+  overflow: hidden;
+  border: 1px solid #f0f0f0;
+}
+section.From-our-blog .blogs ul li .blog-list .blog-thumb{
+  background: #fff url(http://kute-themes.com/html/luckyshop/html/images/blogs/14.jpg) 50% 50% no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  height: 253px;
+}
+section.From-our-blog .blogs ul li .blog-list .second{
+  background: #fff url(http://kute-themes.com/html/luckyshop/html/images/blogs/15.jpg) 50% 50% no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  height: 253px;
+}
+section.From-our-blog .blogs ul li .blog-list .third{
+  background: #fff url(http://kute-themes.com/html/luckyshop/html/images/blogs/16.jpg) 50% 50% no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  height: 253px;
+}
+section.From-our-blog .blogs ul li .blog-list .blog-info{
+  padding: 10px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #f0f0f0;
+}
+section.From-our-blog .blogs ul li .blog-list .blog-info a{
+  color: #222222;
+  font-size: 16px;
+}
+section.From-our-blog .blogs ul li .blog-list .blog-info span.date{
+  margin-top: 10px;
+  display: inline-block;
+  font-size: 12px;
+  color: #666;
+}
+section.From-our-blog .blogs ul li .blog-list .blog-button{
+  padding: 20px 10px;
+}
+section.From-our-blog .blogs ul li .blog-list .blog-button span{
+  font-size: 13px;
+  color: #222;
+}
+section.From-our-blog .blogs ul li .blog-list .blog-button a{
+  margin-left: 60px;
+  padding: 10px 20px;
+  border-radius: 30px;
+  background: #f0f0f0;
+  font-size: 14px;
+  color: #666;
+}
+#content section.From-our-blog .blogs ul li .blog-list .blog-button a:hover{
+  background: #eec15b;
+  color:#fff;
+}
+section.From-our-blog .blog-banefit {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+section.From-our-blog .blog-banefit ul li{
+  float: left;
+  width: 33.3%;
+}
+section.From-our-blog .blog-banefit ul li .icon{
+  text-align: center;
+  font-size: 35px;
+  color: #aaa;
+}
+section.From-our-blog .blog-banefit ul li h2{
+  margin-top: 10px;
+  font-size: 16px;
+  color: #000;
+  text-transform: none;
+}
+section.From-our-blog .blog-banefit ul li h3{
+  margin-top: 10px;
+  color: #aaa;
+  font-size: 14px;
+  text-align: center;
+}
+#footer{
+  padding-top: 75px;
+  background: #141414;
+  color: #fff;
+}
+#footer .footer-top{
+  padding-bottom: 70px;
+  border-bottom: 1px solid #333333;
+}
+#footer .footer-top ul li .about-us{
+  float: left;
+  width:33%;
+  padding: 10px;
+}
+#footer .footer-top ul li h2{
+  font-size: 15px;
+  font-weight: bold;
+  color: #f0f0f0;
+  padding-bottom: 20px;
+}
+#footer .footer-top ul li h3{
+  margin-top: 10px;
+  color: #999;
+  font-size: 14px;
+  line-height: 25px;
+}
+#footer .footer-top .about-us .sns{
+  margin-top: 30px;
+}
+#footer .footer-top .about-us .sns a{
+  display: inline-block;
+  width: 30px; height: 30px;
+  border-radius: 50%;
+  background: #2c2c2c;
+  text-align: center;
+  padding-top: 7px;
+  margin-right: 5px;
+  color: #fff;
+}
+#footer .footer-top .our-information{
+  float: left;
+  width: 17%;
+  padding: 10px;
+}
+#footer .footer-top .our-information a{
+  display: block;
+  margin-top: 20px;
+  color: #999;
+  font-size: 14px;
+}
+#footer .footer-top .my-account{
+  float: left;
+  width: 17%;
+  padding: 10px;
+}
+#footer .footer-top .my-account a{
+  display: block;
+  margin-top: 20px;
+  color: #999;
+  font-size: 14px;
+}
+#footer .footer-top .get-in-touch{
+  float: left;
+  width: 33%;
+  padding: 10px;
+}
+#footer .footer-top .get-in-touch .form{
+  position: relative;
+  margin-top: 20px;
+}
+#footer .footer-top .get-in-touch .form input{
+  display: inline-block;
+  width: 100%;
+  padding: 16px 15px;
+  background: #1b1b1b;
+  color: #999;
+  font-size: 13px;
+}
+#footer .footer-top .get-in-touch .form span.envelope{
+  position: absolute;
+  top: 0; right: 0; bottom: 0;
+  color: #000;
+  text-align: center;
+  z-index: 100;
+}
+#footer .footer-top .get-in-touch .form span.envelope a{
+  display: inline-block;
+  width: 48px; height: 50px;
+  color: #fff;
+  line-height: 47px;
+}
+#footer .footer-top .get-in-touch .form span.envelope a:before{
+  content: '';
+  display: table;
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  width: 0px; height: 50px;
+  background: rgba(0,0,0,0.2);
+  transition: all 0.5s;
+}
+#footer .footer-top .get-in-touch .form span.envelope:hover a:before{
+  width: 100%;
+}
+#footer .footer-bottom{
+  padding: 30px 0;
+}
+#footer .footer-bottom .copyright{
+  float: left;
+  font-size: 13px;
+  margin-top: 16px;
+  color: #999;
+}
+#footer .footer-bottom .payment{
+  float: right;
+}
+#footer .footer-bottom .payment span{
+  display: inline-block;
+  margin-right: 40px;
+}
+#footer .footer-bottom .payment span img{
+  opacity: 0.2;
+}
+#footer .footer-bottom .payment span img:hover{
+  opacity: 1;
+}
+
+@media only screen and (max-width: 767px) {
+
+  .container{
+    width: 100%;
+}
+  section img{
+    height: 330px;
+  }
+  .header-top{
+    display: none;
+  }
+  .header-middle .search-inner{
+    display: none;
+  }
+  .header-middle .basket{
+    display: none;
+  }
+  .header-bottom ul.gnb{
+    display: none;
+  }
+  .header-middle{
+    padding: 0;
+  }
+  .header-middle h1.logo{
+    text-align: center;
+    padding: 13px 0;
+    width: 100%;
+    background:#fc0;
+  }
+  .header-middle h1.logo img{
+    height: 30px;
+    margin-top: 4px;
+  }
+  .header-middle .menu-btn{
+    display: block;
+  }
+  .header-middle .menu-btn-right{
+    background: url(images/search_top.png) 50% 50% no-repeat;
+    background-size: cover;
+    height: 21px;
+    width: 21px;
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  section.main-wrap{
+    overflow: hidden;
+  }
+  section.main-wrap .slider {
+    position: relative;
+  }
+  section.main-wrap .slider .link1{
+    background: #fff url(http://kute-themes.com/html/luckyshop/html/images/sliders/10.jpg) 50% 50% no-repeat;
+    height: 360px;
+    -webkit-background-size: cover;
+    background-size: cover;
+  }
+  section.main-wrap .slider .link2{
+    background: #fff url(http://kute-themes.com/html/luckyshop/html/images/sliders/11.jpg) 50% 50% no-repeat;
+    height: 360px;
+    -webkit-background-size: cover;
+    background-size: cover;
+  }
+  section.main-wrap .slider .link3{
+    background: #fff url(http://kute-themes.com/html/luckyshop/html/images/sliders/12.jpg) 50% 50% no-repeat;
+    height: 360px;
+    -webkit-background-size: cover;
+    background-size: cover;
+  }
+  section.main-wrap .slider .link4{
+    background: #fff url(http://kute-themes.com/html/luckyshop/html/images/sliders/9.jpg) 50% 50% no-repeat;
+    height: 360px;
+    -webkit-background-size: cover;
+    background-size: cover;
+  }
+  section.main-wrap .slider ul.slick-pager{
+    bottom: 8px;
+  }
+  section.main-wrap .slider ul.slick-pager li button{
+    width: 5px; height: 12px;
+  }
+  section.main-wrap .text{
+    padding-top: 115px;
+  }
+  section.main-wrap .slider button.slick-next{
+    overflow: hidden;
+  }
+  section.main-wrap .slider button.slick-prev{
+    display: none;
+  }
+  section.main-wrap .slider button.slick-next{
+    display: none;
+  }
+  section.furniture .main-img{
+    display: none;
+  }
+  section.furniture .menu-bar{
+    width: 100%;
+  }
+  .title{
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+  }
+  .title h2{
+    display: inline-block;
+  }
+  .sub-title{
+    margin-top: 10px;
+    margin-right: 0;
+    width: 100%;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  .sub-title li{
+    text-align: center;
+    width: 33.3%;
+  }
+  .sub-title ul li a{
+    padding: 10px 14px;
+  }
+  section.furniture{
+    margin-top: 0;
+  }
+  section.furniture .furnitures{
+    width: 100%;
+  }
+  section.furniture .furnitures ul li{
+    width: 100%;
+  }
+  section.furniture .furnitures ul li:last-child{
+    border: 0;
+  }
+  section.Disital{
+    margin-top: 0;
+  }
+  section.Disital .menu-bar{
+    border: 0;
+  }
+  section.furniture .menu-bar{
+    border: 0;
+  }
+  section.furniture .furnitures .furniture-item .second-img{
+  left: 400px;
+  }
+  section.Disital .product ul li{
+    width: 100%;
+  }
+  section.Disital .product ul li:last-child{
+    border:0;
+  }
+  .container:after, .clearfix:after, ul:after{
+    display: none;
+  }
+  section.Disital .product .product-item{
+    text-align: center;
+  }
+  section.fashion{
+    margin: 0;
+  }
+  section.fashion .main-img{
+    display: none;
+  }
+  section.fashion .menu-bar{
+    width: 100%;
+    border-bottom: 1px solid #f0f0f0;
+    border-top: 0;
+  }
+  section.Disital .banner-img{
+    display: none;
+  }
+  section.fashion .fashion-list{
+    width: 100%;
+  }
+  section.fashion .fashion-list ul li{
+    width: 100%;
+  }
+  section.fashion .fashion-list ul li:last-child{
+    border:0
+  }
+  section.Home-decoration{
+    margin: 0;
+  }
+  section.Home-decoration .product{
+    text-align: center;
+  }
+  section.Home-decoration .product li{
+    width: 100%;
+  }
+  section.Home-decoration .product li:last-child{
+    border:0;
+  }
+  section.Home-decoration .product li .img{
+    display: inline-block;
+  }
+  section.From-our-blog{
+    margin-top: 10px;
+    text-align: center;
+  }
+  section.From-our-blog h2{
+    padding: 10px 0;
+    display: inline-block;
+    color: #000;
+    font-size: 23px;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  section.From-our-blog h2:after{
+    content: '';
+    display: table;
+    border: 1px solid #ecb125;
+    width: 100%;
+  }
+  section.From-our-blog p{
+    display: none;
+  }
+  section.From-our-blog .blogs{
+    border-top: 1px solid #f0f0f0;
+  }
+  section.From-our-blog .blog-banefit{
+    display: none;
+  }
+  section.From-our-blog .blogs ul li{
+    width: 100%;
+  }
+  section.From-our-blog .blogs ul li:last-child{
+    border:0;
+  }
+  section.From-our-blog .blogs ul li .blog-list .blog-button a{
+    margin-left: 34px;
+  }
+  #footer{
+    padding: 0;
+  }
+  #footer .footer-top{
+    display: none;
+  }
+  #footer .footer-bottom .payment span{
+    display: none;
+  }
+  #footer .footer-bottom .copyright{
+    text-align: center;
+    width: 100%;
+    margin: 0;
+  }
+  #footer .footer-bottom{
+    padding: 40px 0;
+  }
+}
+
+@media only screen and (min-width:768px) and (max-width: 959px){
+ .container{
+   width: 100%;
+ }
+ section.main-wrap .slider button.slick-next{
+   background: #fff url() 0 0 no-repeat;
+ }
+ .header-top .company-info{
+   display: none;
+ }
+ .header-top .set-up{
+   display: none;
+ }
+ .header-middle{
+   padding: 0;
+   text-align: center;
+ }
+ .header-middle h1.logo{
+   width: 100%;
+   padding-bottom: 15px;
+ }
+ .header-middle .search-inner{
+   display: none;
+ }
+ .header-middle .basket{
+   display: none;
+ }
+ .header-bottom ul.gnb li.nav-item{
+   width: 16.6%;
+ }
+ section.furniture .menu-bar{
+   text-align: center;
+ }
+ .title{
+   width: 100%;
+   margin: 0;
+ }
+ .title h2{
+   display: inline-block;
+ }
+ .sub-title{
+   width: 100%;
+   margin: 0;
+ }
+ .sub-title ul{
+   display: inline-block;
+ }
+ section.Disital .menu-bar{
+   text-align: center;
+ }
+ section.fashion .menu-bar{
+   text-align: center;
+ }
+ section.Home-decoration .menu-bar{
+   text-align: center;
+ }
+ section.From-our-blog .blogs ul li .blog-list .blog-button a{
+   display: none;
+ }
+ #footer .footer-bottom{
+   text-align: center;
+   padding: 0;
+   padding-bottom: 30px;
+ }
+ #footer .footer-bottom .copyright{
+   width: 100%;
+   padding-bottom: 30px;
+   padding-top: 30px;
+ }
+ #footer .footer-bottom .payment{
+   width: 100%;
+ }
+}

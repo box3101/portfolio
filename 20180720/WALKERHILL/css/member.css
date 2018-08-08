@@ -1,0 +1,13 @@
+#contents{float: right; width: 700px; min-height: 700px;}
+#contents>h2{font:bold 30px/1.6 "arial"; color: #333;}
+textarea{width: 100%; height: 100px; font: 11px/1.4 "맑은고딕"; resize: none; padding: 20px;
+box-sizing: border-box; margin-bottom: 10px;}
+table{width: 100%; margin-top: 40px; border-top: 2px solid #aaa; border-bottom: 2px solid #aaa;}
+table th{padding: 20px 0; border-bottom: 1px solid #ccc;}
+table td{border-bottom: 1px solid #ccc; padding: 20px 0;}
+input{height: 20px;}
+input[type="text"],input[type="password"]{background: #e5fefe; margin-right: 3px;}
+.long{width: 500px !important; margin-top: 4px;}
+.btnSet{text-align: center; margin-top: 20px; margin-bottom: 100px;}
+input[type="submit"]{margin-right: 3px;}
+td>img{position: relative; top: 5px;}

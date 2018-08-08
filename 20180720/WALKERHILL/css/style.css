@@ -1,0 +1,102 @@
+.hidden{position: absolute; top: 0; left: -1000%; width: 1px; height: 1px; overflow: hidden;}
+
+/* layout */
+.headerWrap{width: 100%; background: url(../img/bgHeader.gif) repeat-x; transition: all 1s;}
+#header{width: 1000px; height: 120px; margin: 0 auto; position: relative;}
+.visualWrap{width: 100%; background: url(../img/visual1.jpg) 50% 100%; background-size:cover;}
+#visual{width: 1000px; height: 600px; margin: 0 auto; position: relative;}
+#contents{width: 100%;}
+.footerWrap{width: 100%; background: url(../img/bgFooter.gif);}
+#footer{width: 1000px; height: 183px; margin: 0 auto; position: relative; transition: all 1s;}
+
+/* visual */
+.vis01{position: absolute; left: 0; bottom: 103px; padding: 20px 25px 20px 32px; border: 1px solid #aaa;}
+.vis01>li{float: left; font:bold 11px/2 "맑은고딕"; color: #fff;}
+.vis01>li.ab{font:bold 40px/1 "맑은고딕";}
+
+.vis02{position: absolute; left: 0; bottom: 22px;}
+.vis02>li{float: left; background: #fff;}
+.vis02>li:first-child{width: 450px;}
+.vis02>li a{display: inline-block; width: 137.5px; height: 50px; box-sizing: border-box; text-align: center; color: #000;
+font:12px/50px "맑은고딕"; border-left: 1px solid #ddd;}
+.vis02 select{position: relative; bottom: 3px; left: 5px;}
+.vis02>li:last-child{background: #000; opacity: 0.7;}
+.vis02>li:last-child>a{color: #fff; border: 0 !important; font-weight: bold; transition: all 1.5s;}
+.vis02>li:last-child>a:hover{background: #aaa; color: #000;}
+.abc{border: 0 !important;}
+
+/* con1 */
+.con1{width: 1000px; height: 170px; margin: 0 auto;}
+.con1>img{width: 100%;}
+
+/* con2 */
+.con2{width: 1000px; margin: 0 auto; margin-top: 55px; padding-bottom: 55px; overflow: hidden; position: relative;}
+.con2 h2{text-align: center; font:bold 30px/1 "맑은고딕"; color: #333; margin-bottom: 35px;}
+.con2 h3{margin-bottom: 15px; font:bold 18px/1 "맑은고딕"; color: #444;}
+.con2 p{font:bold 12px/1.6 "맑은고딕"; color: #888;}
+.con2>div{float: left; width: 320px; margin-right: 20px; transition: all 1s;}
+.con23{margin-right: 0 !important;}
+.con2>div>img{width: 100%; transition: all 2s;}
+.con2>div>div{padding: 30px;}
+.slide{position: absolute; left: 50%; margin-left: -90px; bottom: 35px;}
+.slide>li{float: left;}
+.slide>li>a{display: block; width: 10px; height: 10px; border-radius: 50%; background: #aaa; margin: 0 5px;}
+.moreBtn{position: absolute; top: 15px; right: 0; display: block; width: 67px; height: 20px; border-radius: 10px; border: 1px solid #aaa; font:12px/20px "맑은고딕"; color: #777; text-align: center;}
+
+/* con3 */
+.con3Wrap{width: 100%; background: #615C58;}
+.con3{width: 1000px; margin: 0 auto; overflow: hidden;}
+.con3 h4{font:bold 17px/1.4 "맑은고딕"; color: #333; margin-bottom: 15px;}
+.con3 p{font:11px/1.4 "맑은고딕"; color: #666;}
+.con3 img{margin-top: 40px;}
+
+/* con4 */
+.con4{float: left; width: 660px; margin-right: 40px; margin-top: 60px; margin-bottom: 60px;}
+.con4>div{float: left; width: 220px; height: 260px; padding: 35px 25px; border-right: 1px solid #ccc; box-sizing: border-box; background: #E7E3DE; position: relative; transition: all 1s;}
+.con41{background: url(../img/conpic4Bg.jpg)!important;}
+
+/* con5 */
+.con5{float: left; width: 300px; height: 260px; padding: 35px 25px; margin-top: 60px; box-sizing: border-box; background: #E7E3DE; position: relative;}
+.btnArrow{position: absolute; right: 12px; bottom: 15px;}
+
+/* con6 */
+.con6{width: 1000px; margin: 0 auto; margin-top: 60px; overflow: hidden;}
+.con6>div{float: left; width: 250px; transition: all 1s;}
+.con6>div>img{width: 100%; vertical-align: bottom; transition: all 2s;}
+.con65{background: #E5E5E5; height: 105px;}
+.con65>h5{font:bold 16px/105px "맑은고딕"; color: #888; margin-left: 41px;}
+.con66{width: 500px!important; background: #EFEFEF}
+.con66>ul>li{float: left; width: 83.333px;}
+.con66>ul>li>a{display: block; font:bold 20px/105px "맑은고딕"; color: #888; text-align: center;}
+.con67 {text-align: center; background: #E5E5E5; height: 105px;}
+.con67 span{display: block; font:bold 16px/1 "맑은고딕"; color: #888; text-align: center; margin-top:20px; margin-bottom: 20px;}
+.con67 p{display: inline-block; position: relative; font:bold 14px/1 "맑은고딕"; color: #888; text-align: center;}
+.con67 p:before{content: ''; display: block; position: absolute; top: -8px; width: 100%; height: 1px; background: #aaa;}
+
+/* con7 */
+.con7{width: 1000px; margin: 0 auto; overflow: hidden; margin-top: 30px;}
+.con71{float: left; width: 250px; height: 150px; background: #996B56; padding: 40px 35px; box-sizing: border-box; transition: all 1s;}
+.con71>h6{font:bold 20px/1.6 "맑은고딕"; color: #fff;}
+.con71>p{font: 12px/1.6 "맑은고딕"; color: #ccc;}
+.con72{float: right; width: 700px; height: 150px; margin-left: 50px; box-sizing: border-box; position: relative;}
+.con72 form{display: inline-block; padding: 20px 0; box-sizing:  border-box;}
+.con72 form a{display: inline-block; width: 170px; font: 12px/50px "맑은고딕"; color: #ccc; background: #aaa; padding-left: 30px; box-sizing: border-box; color: #333; position: relative; top: 2px;}
+.con72 form #a{width: 385px; height: 50px; background: #E5E5E5; padding-left: 100px; box-sizing: border-box; color: #aaa;}
+.con72 form #b{width: 110px; height: 50px; background: #444; font:BOLD 12px/1.6 "맑은고딕"; color: #FFF;}
+.con72 label{margin-left: 5px; display: inline-block;}
+.con72 p{margin-top: 5px;}
+.con7Btn{position: absolute; right:28px; bottom: 13px; display: block; width: 90px; height: 30px;
+border: 1px solid #ccc; background: #fff; text-align: center; font:11px/30px "arial"; color: #555;}
+
+/* con8 */
+.con8{width: 1000px; margin: 0 auto; text-align: center; margin-top: 50px;}
+.con8>h2{font: bold 35px/1 "맑은고딕"; color: #000; margin-bottom: 32px;}
+.con8>ul{overflow: hidden;}
+.con8>ul>li{float: left;  width: 333px;}
+.con8>ul>li>a{display: block; width: 100%; height: 47px; font: 12px/47px "맑은고딕"; color: #666; box-sizing: border-box; border: 1px solid #aaa; margin-bottom: -1px; transition: all 0.5s;}
+.con8>ul>li:last-child{width: 334px;}
+.con81{width: 1000px; height: 520px; margin-bottom: 60px; position: relative;}
+.con81>p{position: absolute; top: 0; left: 0; right: 0.1px; bottom: 0; opacity: 0; border: 1px solid #aaa; box-sizing: border-box;}
+.con81 img{width: 100%;}
+.on>a{background: #474E61; color: #fff!important;}
+p.on{opacity: 1;}

@@ -1,0 +1,18 @@
+/* layout */
+.container{padding-top: 106px; width: 1000px; margin: 0 auto;  margin-bottom: 30px; overflow: hidden;}
+.leftBox{float: left; width: 228px; border: 1px solid #aaa;}
+#content{float: right; width: 730px; padding: 20px; box-sizing: border-box;}
+
+/* leftBox */
+.leftNav{width: 228px; margin-bottom: 50px;}
+.leftNav>li:nth-child(1){width: 228px; height: 131px; text-indent: -9999px; background: url(../img/sub2_title.jpg); background-size:cover;}
+.leftNav>li>a{display: block; width: 228px; height: 53px; font:bold 15px/53px "맑은고딕"; color: #333; border-bottom: 1px solid #aaa; text-indent: 45px;}
+.leftNav>li>a:hover{color: #FFCC00;}
+
+/* content */
+.banner>li{margin-top: 20px; width: 228px; height: 130px;background: url(../img/banner1.jpg); background-size:cover; text-indent: -9999px;}
+.banner>li:last-child{background: url(../img/banner2.jpg); background-size:cover;}
+
+.titleArea>h2{font:bold 25px/1 "맑은고딕"; color: #555; margin-bottom: 15px;}
+.titleArea>p{font:bold 13px/1 "맑은고딕"; color: #aaa; position: relative;}
+.titleArea>p::after{content: ''; display: block; position: absolute; top: 55px; left: -20px; width: 107%; height: 1px; background: #ddd; }

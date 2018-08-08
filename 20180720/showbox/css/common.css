@@ -1,0 +1,269 @@
+/* reset.css */
+html, body, div, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, address, dl, dt, dd, ol, ul, li, fieldset, form, legend, table, caption, tbody, tfoot, thead, tr, th, td, input, select, textarea{margin:0; padding:0;}
+img, fieldset{border:0px;}
+table{border-collapse:collapse;}
+ul, ol, li{list-style:none;}
+address, em{font-style:normal;}
+li img, object{vertical-align:top;}
+input, select, textarea, form img{vertical-align:middle; border:0; outline: 1;}
+a{ outline:1; text-decoration:none; border:none;}
+body { font: 12px /1.2 'Open Sans', "돋움", arial; color:#666;}
+
+/*  SKIPNAVI sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss*/
+
+#skipNavi a {
+   display:block; width:100%; height:40px; background:blue; font:bold 14px/40px "돋움"; color:#fff; text-align:center; position:fixed; top:-40px; left:0px; z-index:101;
+}
+#skipNavi a.on {
+   top:0px;
+}
+
+#gnb>li>ul>li>a.on{ background:#bbb; color:#333;}
+
+/* LAYOUT sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss*/
+
+.headerWrap{width: 100%; position: fixed; z-index: 100; background: rgba(0,0,0,0.8)}
+#header{width: 1000px; height: 107px; margin: 0 auto; position: relative; transition: all 2s;}
+.visualWrap{width: 100%;}
+#visual{width: 100%; height: 750px; margin: 0 auto; background:url(../img/s1.jpg) 100% 100% no-repeat; background-size: cover; position: relative; padding-top: 107px;}
+#contents{width: 100%;}
+.footerWrap{width: 100%; background: #333333;}
+#footer{width: 1000px; height: 160px; margin: 0 auto; position: relative;}
+.hidden{position: absolute; top: 0; left: -1000%; width: 1px; height: 1px; overflow: hidden;}
+
+/* BUTTON sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss*/
+
+ul.con12Btn{
+  position: absolute;
+  bottom: 8px; right: 10px;
+}
+ul.con12Btn>li{float: left;}
+ul.con12Btn>li>a{
+  display: block;
+  width: 48px; height: 41px;
+  background: url(../img/heart_1.png);
+  background-size: cover;
+  border-radius: 50%;
+  text-indent: -9999px;
+}
+ul.con12Btn>li>a:hover{opacity: 0.7;}
+.trailer{background: url(../img/heart_2.png)!important;}
+
+/* HEADER sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss*/
+
+ul.sns{
+  position: absolute;
+  left: 0px; top: 12px;
+}
+ul.sns>li{
+  float: left;
+}
+ul.sns>li>a{
+  display: block;
+  margin: 0 12px;
+}
+ul.sns>li>a>i{
+  font-size: 20px;
+  color: #fff;
+}
+ul.quick{
+  position: absolute;
+  top: 14px; right: 188px;
+}
+ul.quick>li{float: left;}
+ul.quick>li>a{
+  display: block;
+  margin-right: 10px;
+  font:11px/1 'Open Sans'; color: #fff;
+}
+.topSearch{
+  position: absolute;
+  top: 8px; right: 0;
+}
+.topSearch input{
+  width: 140px;
+  font:12px/1.8 'Open Sans';
+  background: transparent;
+  color: #fff;
+  border-bottom: 2px solid #eee;
+}
+.topSearch button{
+  border: 0;
+  background: transparent;
+  position: relative;
+  top: 2px; right: 2px;
+}
+.topSearch button i{
+  font-size: 15px;
+  color: #fff;
+}
+.logo{
+  position: absolute;
+  bottom: 18px; left: 8px;
+}
+.logo>a{
+  display: block;
+  font:bold 20px/1 'Open Sans'; color: #fff;
+}
+.logo img{
+  vertical-align: middle;
+}
+#gnb{
+  position: absolute;
+  bottom: 0; right: 0px;
+}
+#gnb>li{
+  float: left;
+  padding: 20px 0;
+  box-sizing: border-box;
+  position: relative;
+}
+#gnb>li>a{
+  display: block;
+  width: 120px; height: 38px;
+  font:bold 15px/38px 'Open Sans'; color: #eee;
+  text-align: center;
+  letter-spacing: -1px;
+}
+#gnb>li>a.on{background: #555; color: #fff;}
+
+/* SUB GNB */
+#gnb ul{
+  position: absolute;
+  left: 0; top: 78px;
+  width: 120px;
+  display: none;
+}
+#gnb ul a{
+  display: block;
+  width: 120px; height: 50px;
+  font:13px/50px 'Open Sans'; color: #B9B9B9;
+  text-indent: 20px;
+}
+#gnb ul a:hover{
+  background: orange; color: #000;
+}
+.subBg{
+  position: absolute;
+  left: 0; top: 78px;
+  width: 100%;
+  background:#222;
+  display: none;
+}
+.menuBtn{
+  position: absolute;
+  right: 26px; top: -126px;
+  transition: all 1s;
+  opacity: 0;
+}
+.menuBtn i{
+  font-size: 20px;
+  color: #fff;
+}
+#togleGnb{
+  display: none;
+  text-indent: -9999px;
+}
+/* FOOTER sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss*/
+
+#footer>h1{position: absolute; top: 20px; left: 0;}
+#footer>h1>a.fotLogo{display: block; width: 79px; height: 99px; background: url(../img/footerlogo.jpg); background-size:cover;}
+.company{position: absolute; left: 120px; top: 30px;}
+.company>li{float: left;}
+.company>li>a{display: block; font:12px/1.5 'Open Sans'; color: #aaa;}
+.company>li:last-child>a{color:#c90;}
+.company>li>a>span{margin: 0 5px;}
+address{position: absolute; left: 120px; top: 55px; font:12px/1.5 'Open Sans'; color: #aaa;}
+.select{position: absolute;right: 0; top: 35px;}
+select{width: 200px; height: 20px;}
+.fotSns{position: absolute; right: 90px; top:65px;}
+.fotSns>li{float: left;}
+.fotSns>li>a{display: block; width: 37px; height: 38px; border-radius: 50%;}
+.fotSns>li>a.fb{background: url(../img/footer_fb.jpg); background-size:cover;}
+.fotSns>li>a.tw{background: url(../img/footer_tw.jpg); background-size:cover;}
+.fotSns>li>a.yt{background: url(../img/footer_yt.jpg); background-size:cover;}
+
+/* 여백 */
+.ml0{margin-left:0px !important}
+.ml1{margin-left:1px !important;}
+.ml2{margin-left:2px !important;}
+.ml3{margin-left:3px !important;}
+.ml4{margin-left:4px !important;}
+.ml5{margin-left:5px !important;}
+.ml6{margin-left:6px !important;}
+.ml7{margin-left:7px !important;}
+.ml8{margin-left:8px !important;}
+.ml9{margin-left:9px !important;}
+.ml10{margin-left:10px !important;}
+.ml11{margin-left:11px !important;}
+.ml12{margin-left:12px !important;}
+.ml13 {margin-left:13px !important;}
+.ml14 {margin-left:14px !important;}
+.ml15 {margin-left:15px !important;}
+.ml17 {margin-left:17px !important;}
+.ml18 {margin-left:18px !important;}
+.ml20 {margin-left:20px !important;}
+.ml21 {margin-left:21px !important;}
+.ml22 {margin-left:22px !important;}
+.ml23 {margin-left:23px !important;}
+.ml24 {margin-left:24px !important;}
+.ml25 {margin-left:25px !important;}
+.ml26 {margin-left:26px !important;}
+.ml27 {margin-left:27px !important;}
+.ml28 {margin-left:28px !important;}
+.ml29 {margin-left:29px !important;}
+.ml30 {margin-left:30px !important;}
+.ml31 {margin-left:20px !important;}
+.ml32 {margin-left:20px !important;}
+.ml33 {margin-left:20px !important;}
+.ml34 {margin-left:34px !important;}
+.ml35 {margin-left:35px !important;}
+.ml40 {margin-left:40px !important;}
+.ml50 {margin-left:50px !important;}
+.ml55 {margin-left:55px !important;}
+.ml65 {margin-left:65px !important;}
+.ml70 {margin-left:70px !important;}
+.ml75 {margin-left:75px !important;}
+.ml76 {margin-left:76px !important;}
+.ml78 {margin-left:78px !important;}
+.ml80 {margin-left:80px !important;}
+.mr0 {margin-right:0px !important;}
+.mr1 {margin-right:1px !important;}
+.mr2 {margin-right:2px !important;}
+.mr3 {margin-right:3px !important;}
+.mr4 {margin-right:4px !important;}
+.mr5 {margin-right:5px !important;}
+.mr6 {margin-right:6px !important;}
+.mr7 {margin-right:7px !important;}
+.mr8 {margin-right:8px !important;}
+.mr9 {margin-right:9px !important;}
+.mr10 {margin-right:10px !important;}
+.mr11 {margin-right:11px !important;}
+.mr12 {margin-right:12px !important;}
+.mr13 {margin-right:13px !important;}
+.mr14 {margin-right:14px !important;}
+.mr15 {margin-right:15px !important;}
+.mr16 {margin-right:16px !important;}
+.mr17 {margin-right:17px !important;}
+.mr18 {margin-right:18px !important;}
+.mr19 {margin-right:19px !important;}
+.mr20 {margin-right:20px !important;}
+.mr21 {margin-right:20px !important;}
+.mr22 {margin-right:20px !important;}
+.mr23 {margin-right:20px !important;}
+.mr24 {margin-right:20px !important;}
+.mr25 {margin-right:25px !important;}
+.mr26 {margin-right:20px !important;}
+.mr27 {margin-right:20px !important;}
+.mr28 {margin-right:20px !important;}
+.mr29 {margin-right:20px !important;}
+.mr30 {margin-right:30px !important;}
+.mr34 {margin-right:34px !important;}
+.mr35 {margin-right:35px !important;}
+.mr40 {margin-right:40px !important;}
+.mr50 {margin-right:50px !important;}

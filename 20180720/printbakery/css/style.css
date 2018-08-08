@@ -1,0 +1,431 @@
+@charset "utf-8";
+
+/* reset.css */
+html, body, div, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, address, dl, dt, dd, ol, ul, li, fieldset, form, legend, table, caption, tbody, tfoot, thead, tr, th, td, input, select, textarea{margin:0; padding:0;}
+h1, h2, h3, h4, h5, h6{font-size:100%;}
+img, fieldset{border:0px;}
+table{border-collapse:collapse;}
+ul, ol, li{list-style:none;}
+address, em{font-style:normal;}
+li img, object{vertical-align:top;}
+input, select, textarea, form img{vertical-align:middle;}
+a{ outline:0; text-decoration:none; border:none;}
+body { font: 12px /1.2 Dotum, "돋움", arial; color:#666;}
+
+/* conmmon css */
+.btn{
+  display: block;
+  width: 380px; height: 60px;
+  margin: 0 auto;
+  font: bold 20px/60px "맑은고딕"; color: #000;
+  border: 1px solid #000;
+  text-align: center;
+}
+
+/* layout */
+.headerWrap{
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  background: url(../img/bgHeader.jpg);
+  transition: all 1s;
+}
+#header{
+  width: 1200px; height: 140px;
+  margin: 0 auto;
+  position: relative;
+}
+#visual{
+  width: 100%; height: 1000px;
+  background: url(../img/visual1.jpg) 50% 50% no-repeat;
+  background-size: 140% 100%;
+  text-align: center;
+}
+#contents{
+  width: 1200px;
+  margin: 0 auto;
+}
+.footerWrap{
+  width: 100%;
+  background: #252525;
+}
+#footer{
+  width: 1200px; height: 380px;
+  margin: 0 auto;
+  position: relative;
+}
+/* header */
+.logo{
+  position: absolute;
+  top: 15px;
+  left: 0;
+}
+.util{
+  position: absolute;
+  top: 30px;
+  right: 0;
+}
+.util>li{
+  float: left;
+}
+.util>li>a{
+  display: block;
+  font: bold 14px/1 "arial";
+  color: #ccc;
+  margin-right: 23px;
+}
+.util>li>a>img{
+  vertical-align: middle;
+  width: 30px;
+  height: 30px;
+}
+#gnb{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+#gnb li{
+  float: left;
+}
+#gnb li a{
+  display: block;
+  width: 130px;
+  height: 48px;
+  font: 15px/48px "arial";
+  color: #666;
+  text-align: center;
+}
+#gnb li:nth-child(4) a{
+  width: 190px;
+}
+#gnb li a:hover{
+  background: #363636;
+  color: #fff;
+}
+.search{
+  position: absolute;
+  bottom: 10px;
+  right: 25px;
+}
+.search input{
+  display: block;
+  width: 165px;
+  height: 25px;
+  border: 0;
+  border-bottom: 1px solid #aaa;
+  background: none;
+  font-size: 12px;
+  text-indent: 13px;
+}
+.btnSearch{
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+  width: 25px;
+  height: 28px;
+}
+.btnSearch>img{
+  width: 100%;
+  height: 100%;
+}
+/* visual */
+.vis01{
+  display: inline-block;
+  padding-top: 410px;
+  margin-bottom: 40px;
+}
+.vis02>a{
+  display: inline-block;
+  width: 235px;
+  height: 45px;
+  border: 2px solid #aaa;
+  font: bold 16px/45px "arial";
+  color: #fff;
+  transition: all 1s;
+}
+.vis02>a:hover{
+  background:#666;
+  color: #eee;
+}
+.visBtn{
+  margin-top: 190px;
+}
+.visBtn span{
+  display: inline-block;
+  width: 13px;
+  height: 70px;
+  border: 1px solid #fff;
+  margin: 0 2px;
+  position: relative;
+  top: 0;
+  transition: all 2s;
+}
+.visBtn span:hover{
+  background: #fff;
+}
+.visBtn>.btn1{
+  background: #fff;
+  top: 20px;
+}
+.visBtn>.btn2,.visBtn>.btn4{
+  height: 50px;
+}
+/* con1 */
+.con1{
+  width: 1200px;
+  margin-top: 65px;
+  text-align: center;
+}
+.con1>h2{
+  font : bold 22px/1 "맑은고딕"; color: #000;
+  margin-bottom: 20px;
+}
+.con1>h3{
+  font : bold 18px/1 "맑은고딕"; color: #333;
+  margin-bottom: 35px;
+}
+.con1>p{
+  font : bold 16px/1 "맑은고딕"; color: #888;
+  margin-bottom: 55px;
+}
+.con11{
+  width: 1200px;
+}
+.con11>img{
+  width: 100%;
+}
+/* con2 */
+.con2{
+  width: 1200px; margin-top: 25px;
+  padding-bottom: 190px;
+  border-bottom: 1px solid #000;
+  overflow: hidden;
+  position: relative;
+}
+.con2>div{
+  float: left;
+  width: 386px;
+  margin-right: 20px; margin-bottom: 40px;
+  border: 1px solid #aaa;
+  box-sizing: border-box;
+  transition: all 1s;
+}
+.con2>div>img{
+ width: 100%;
+ transition: all 2s;
+}
+.con2>div>.story{
+  position: relative;
+  overflow: hidden;
+  padding: 10px 10px 25px 10px;
+}
+.con2>div>.story>img{
+  float: left;
+  vertical-align: middle;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  margin-right: 9px;
+}
+.con2>div>.story>div{
+  float: left;
+  font:bold 12px/19px "airal";
+}
+.con2>div>.story>div>p:last-child{
+  color: #aaa;
+}
+.crtBtn{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.crtBtn a{
+  display: inline-block;
+  width: 27px;
+  height: 27px;
+  margin: 0 6px;
+}
+.crtBtn a>img{
+  width: 100%;
+}
+.price{
+  position: absolute;
+  right: 10px;
+  bottom: 25px;
+}
+.price>p{
+  font: bold 17px/1 "arial";
+  color: #222!important;
+}
+.con23,.con26{
+  margin-right: 0!important;
+}
+.con24,.con25,.con26{
+  margin-bottom: 0!important;
+}
+.con2>.btn{
+  position: absolute;
+  bottom: 70px; left: 50%; margin-left: -190px;
+  transition: all 1.5s;
+}
+.con2>.btn:hover{
+  background: #333;
+  color: #fff;
+}
+/* con3 */
+.con3{
+  width: 1200px;
+  text-align: center;
+}
+.con3>h2{
+  margin-top: 55px;
+  font : bold 26px/1 "맑은고딕"; color: #111;
+  margin-bottom: 40px;
+}
+.con3>p{
+  font : 16px/1 "맑은고딕"; color: #111;
+  margin-bottom: 40px;
+}
+.con3>.btn{
+  font:bold 16px/45px "맑은고딕";
+  color: #444;
+  height: 45px;
+  transition: all 1.5s;
+}
+.con3>.btn:hover{
+  background: #333;
+  color: #fff;
+}
+.con3>div{
+  width: 1200px;
+  margin-top: 40px;
+  margin-bottom: 108px;
+  transition: all 1s;
+}
+.con3>div>img{
+  width: 100%;
+}
+
+/* .con4 */
+.con4{
+  width: 1200px;
+  padding-bottom: 188px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+}
+.con4>h2{
+  font : bold 26px/1 "맑은고딕"; color: #111;
+  margin-bottom: 40px;
+}
+.con4>p{
+  font : 16px/1 "맑은고딕"; color: #111;
+  margin-bottom: 40px;
+}
+.con4>div{
+  float: left;
+  width: 386px;
+  margin-right: 20px; margin-bottom: 20px;
+  transition: all 1s;
+}
+.con4>div>img{
+  width: 100%;
+  height: 400px;
+  transition: all 2s;
+}
+.con43,.con46,.con49{
+  margin-right: 0!important;
+}
+.con47,.con48,.con49{
+  margin-bottom: 0!important
+}
+.sns{
+  position: absolute;
+  left: 50%; margin-left: -300px; bottom: 75px;
+}
+.sns li{
+  float: left;
+}
+.sns li a{
+  display: block;
+  width: 200px; height: 60px;
+  font: bold 30px/60px "맑은고딕"; color: #000;
+}
+/* footer */
+#footer strong{
+  color: #ddd;
+}
+.fotLogo{
+  position: absolute;
+  top: 55px;
+  left: 0;
+  width: 390px;
+}
+.fotLogo>img{
+  width: 100%;
+}
+.policy{
+  position: absolute;
+  top: 55px;
+  right: 0;
+}
+.policy li{
+  margin-bottom: 25px;
+  text-align: right;
+}
+.policy>li>a{
+  text-align: right;
+  font:bold 12px/1 "arial";
+  color: #fff;
+}
+.line{
+  padding-top: 160px;
+}
+.line::after{
+  content: '';
+  display: block;
+  position: relative;
+  top: 18px; left: 0;
+  width: 1200px;
+  border-bottom: 1px solid #aaa;
+}
+#footer>h2{
+  margin-top: 40px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+.tel{
+  float: left;
+  width: 165px;
+  font-size: 30px;
+}
+.number{
+  float: left;
+  width: 470px;
+  vertical-align: middle;
+}
+.number li{
+  float: left;
+  width: 33.3%;
+  font: 14px/1.4 "arial";
+}
+.number>li>span{
+  margin: 0 2px;
+}
+#footer>p{
+  clear: both;
+  font:11px/1.7 "arial";
+  position: relative;
+  top: 10px;
+}
+address{
+  position: absolute;
+  top: 230px;
+  right: 60px;
+  font:12px/1.9 "arial";
+}
+.fotLogo2{
+  position: absolute;
+  right: 60px;
+  bottom: 10px;
+}

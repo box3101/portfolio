@@ -1,0 +1,19 @@
+.leftNav>li:nth-child(3)>a{color: #FFCC00;}
+
+.contentArea{margin-top: 30px; padding: 50px 45px;}
+.contentArea .process{overflow:hidden; padding:30px 0 10px 0;}
+.contentArea .process h3{overflow:hidden; width:86px; height:30px; text-indent:-999px;
+	background:url(../images/content2/process.jpg);}
+.contentArea .process img{margin:30px 0 10px 0;}
+.contentArea .ol{overflow:hidden;}
+.contentArea .process ol li{float:left; width:105px; height:80px; margin-right:60px;
+	text-align:center;}
+.contentArea .process ol li.last{margin-right:0;}
+
+.contentArea .faq{padding-top:30px; border-top:1px dotted #ccc;}
+.contentArea .faq h3{overflow:hidden; width:185px; height:30px; text-indent:-999px;
+	background:url(../images/content2/faq.jpg);}
+.contentArea .faq dl{margin-top:25px;}
+.contentArea .faq dd{padding:10px 10px 10px 20px}
+.contentArea .info{margin-top: 30px; padding:10px; vertical-align:center middle;
+	text-align: center; line-height:1.7em;background:#ccc; color:#333;}
