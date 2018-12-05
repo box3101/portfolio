@@ -81,7 +81,7 @@ function bindingEvent(){
 
 
 
-  $(window).resize(function () {    
+  $(window).resize(function () {
       $('#welcome').css('height', slideHeight);
       $('#services').css('height', slideHeight);
       $('#vision').css('height', slideHeight);
@@ -200,6 +200,15 @@ function bindingEvent(){
     createPop();
     $close.stop().fadeIn();
   })
+
+  //스크롤 제어 API
+  $(".info").mCustomScrollbar({
+  theme:"my-theme",
+  scrollButtons:{ enable: true }
+});
+
+
+
 
 }
 
