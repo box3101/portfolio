@@ -207,7 +207,13 @@ function bindingEvent(){
   scrollButtons:{ enable: true }
 });
 
+  $(".menubar").on("click",function(){
+    $(".lists").stop().fadeIn(300);
+  })
 
+  $(".btn_close").on("click",function(){
+    $(".lists").stop().fadeOut(300);
+  })
 
 
 }
