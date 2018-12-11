@@ -102,9 +102,7 @@ function bindingEvent(){
     var x = $(this).attr("href");
     var scrollPosition = $(x).offset().top;
 
-    $("body, html").stop().animate({scrollTop:scrollPosition},600,function(){
-    moveContent(x,scrollPosition);
-  });
+    $("body, html").stop().animate({scrollTop:scrollPosition},600);
 
   });
   $btn2.on("click",function(e){

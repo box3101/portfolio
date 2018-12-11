@@ -472,16 +472,17 @@ word-break: break-all;
 
 /* portfolio */
 #portfolio{
+  background: #111;
   padding: 60px 0px;
   text-align: center;
   position: relative;
 }
 #portfolio h2{
-  color: #000;
+  color: #fff;
   margin-bottom: 20px;
 }
 #portfolio p{
-  color: #000;
+  color: #fff;
   margin-bottom: 40px;
 }
 .pt{
@@ -491,23 +492,28 @@ word-break: break-all;
 }
 .pt>li{
   float: left;
-  width: 33%;
+  width: 30%;
   margin-bottom: 30px;
-  /* margin-left: 3%; */
+  margin-left: 3%;
+  box-sizing: border-box;
+  border-radius: 10px;
 }
 .pt>li:hover{
   background-color: rgba( 255, 255, 255, 0.5 );
 }
 .pt a{
-  display: block;
+  display: table;
   width: 100%; height: 280px;
 }
 .pt>li>a>.info{
+  display: table-cell;
+  vertical-align: middle;
   width: 100%; height: 100%;
   background: rgba(0,0,0,0.7);
-  font:18px/280px "arial"; color: #fff;
+  font:22px/1.6 "arial"; color: #fff;
   opacity: 0;
   transition: all 0.7s
+
 }
 .pt>li>a>.info:hover{
   opacity: 1;
@@ -527,6 +533,20 @@ word-break: break-all;
 .pt .pt5{background: url(../img/pf5.jpg) 50% 50%;; background-size: cover;}
 .pt .pt6{background: url(../img/pf6.jpg) 50% 50%;; background-size: cover;}
 
+.mCustomScrollBox{
+  display: table;
+  max-height: none;
+  width: 100%;
+}
+.mCSB_container{
+  display: table-cell;
+  width: 100%;
+  /* text-align: center; */
+  vertical-align: middle;
+  position: relative;
+  top: 0;
+  left: 0;
+}
 /* work-process */
 #work-process {
   position: relative;
@@ -771,7 +791,10 @@ h7{
   box-sizing: border-box;
   transition: all 0.7s;
 }
-
+.inner{
+  padding: 0 20px;
+  box-sizing: border-box;
+}
 .sch_ham{
   display: none;
   position: absolute;
