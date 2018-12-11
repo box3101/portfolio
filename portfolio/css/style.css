@@ -137,7 +137,7 @@ ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
   width: 100%;
   height: 100%;
   background: http://www.etribe.co.kr/resources/images/common/bg_all_menu.gif;
-  background: url(http://www.etribe.co.kr/resources/images/common/bg_all_menu.gif);
+  background: url('http://www.etribe.co.kr/resources/images/common/bg_all_menu.gif');
   opacity: 0.9;
 }
 .sch_lists li{
@@ -180,7 +180,7 @@ opacity: 1;
   width: 22px;
   height: 22px;
   cursor: pointer;
-  background: url(http://www.etribe.co.kr/resources/images/common/btn_close_all_menu.png) left top no-repeat;
+  background: url('http://www.etribe.co.kr/resources/images/common/btn_close_all_menu.png') left top no-repeat;
   -webkit-background-size: 22px 22px;
   -moz-background-size: 22px 22px;
   background-size: 22px 22px;
@@ -342,7 +342,7 @@ word-break: break-all;
 /* welcome */
 #welcome{
   width: 100%;
-  background: url(http://www.etribe.co.kr/resources/images/common/bg_award.jpg) no-repeat;
+  background: url('http://www.etribe.co.kr/resources/images/common/bg_award.jpg') no-repeat;
   background-size: cover;
 
   background-position: top left, bottom center;
@@ -384,7 +384,7 @@ word-break: break-all;
 
 #services{
   width: 100%;
-  background: url(http://www.etribe.co.kr/upload/new_board/C1536726562414.png) no-repeat;
+  background: url('http://www.etribe.co.kr/upload/new_board/C1536726562414.png') no-repeat;
   background-size: cover;
 
   background-position: top left, bottom center;
@@ -429,7 +429,7 @@ word-break: break-all;
 
 #vision{
   width: 100%;
-  background: url(http://www.etribe.co.kr/resources/images/common/bg_line_service.png) #000 no-repeat;
+  background: url('http://www.etribe.co.kr/resources/images/common/bg_line_service.png') #000 no-repeat;
   background-size: cover;
 
   background-position: top left, bottom center;
