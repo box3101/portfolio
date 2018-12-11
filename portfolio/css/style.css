@@ -248,6 +248,7 @@ ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
    background:#000; height:50px;
 }*/
 .click_btn{
+  display: none;
   position: absolute;
   left: 50%; margin-left: -50px;
   top: 130px;
@@ -267,10 +268,10 @@ ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
   padding-top: 110px;
   margin: 0 auto;
 }
-.top { width:0%; height:1px; position:absolute; top:0px; left:0px; background:#fff;}
-.right { width:1px; height:0%; position:absolute; top:0px; right:0px; background:#fff;}
-.bottom { width:0%; height:1px; position:absolute; bottom:0px; right:0px; background:#fff;}
-.left { width:1px; height:0%; position:absolute; bottom:0px; left:0px; background:#fff;}
+.top { width:0%; height:1px; position:absolute; top:0px; left:0px; background:#4885ed;}
+.right { width:1px; height:0%; position:absolute; top:0px; right:0px; background:#4885ed;}
+.bottom { width:0%; height:1px; position:absolute; bottom:0px; right:0px; background:#4885ed;}
+.left { width:1px; height:0%; position:absolute; bottom:0px; left:0px; background:#4885ed;}
 #visual .main_txt{
   display: none;
 }
@@ -517,6 +518,7 @@ word-break: break-all;
 }
 .pt>li>a>.info2:hover{
   opacity: 1;
+  border: 10px solid skyblue;
 }
 .pt li:nth-of-type(2n-1){
   position: relative;

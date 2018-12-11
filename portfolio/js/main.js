@@ -22,6 +22,9 @@ function initDOM(){
 //이벤트 바인딩
 function bindingEvent(){
 
+  setTimeout(function() {
+    showLine();
+}, 200);
 // Wow.js
 
      new WOW().init();
@@ -71,6 +74,7 @@ function bindingEvent(){
  })
 
  $close.on("click",function(){
+   $(".click_btn").stop().animate({"display":"block"},500);
    hideLine()
    removePop();
  })
@@ -174,7 +178,7 @@ function bindingEvent(){
          $gnb_li_a.eq(1).addClass("on")
 
 
-         $("#welcome .info").stop().animate({"right":"0px", "opacity":"1"},500,function(){
+         $("#welcome .info").stop().animate({"right":"0px", "opacity":"1"},200,function(){
            $("#welcome h2").stop().animate({"opacity":"1",},200,function(){
              $("#welcome p").stop().animate({"opacity":"1",});
            });
@@ -185,7 +189,7 @@ function bindingEvent(){
         $gnb_li_a.removeClass("on")
         $gnb_li_a.eq(2).addClass("on")
 
-        $("#services .info").stop().animate({"left":"50%", "margin-left":-500, "opacity":"1"},500,function(){
+        $("#services .info").stop().animate({"left":"50%", "margin-left":-500, "opacity":"1"},200,function(){
            $("#services h2").stop().animate({"opacity":"1",},200,function(){
              $("#services p").stop().animate({"opacity":"1",});
            });
@@ -196,7 +200,7 @@ function bindingEvent(){
         $gnb_li_a.removeClass("on")
         $gnb_li_a.eq(3).addClass("on")
 
-       $("#vision .info").stop().animate({"left":"50%", "opacity":"1"},500,function(){
+       $("#vision .info").stop().animate({"left":"50%", "opacity":"1"},200,function(){
          $("#vision h2").stop().animate({"opacity":"1",},200,function(){
            $("#vision p").stop().animate({"opacity":"1",});
          });
