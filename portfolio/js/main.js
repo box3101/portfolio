@@ -196,7 +196,7 @@ function bindingEvent(){
     $("#togleGnb").stop().slideToggle(1000);
   });
 
-  $(".pt>li").on("click",function(){
+  $(".pt>li.active").on("click",function(){
     createPop();
     $close.stop().fadeIn();
   })

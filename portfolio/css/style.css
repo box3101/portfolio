@@ -469,20 +469,14 @@ word-break: break-all;
 #portfolio{
   padding: 60px 0px;
   text-align: center;
-  background: #222;
   position: relative;
-}
-.inner{
-  position: relative;
-  padding: 0 40px;
-  box-sizing: border-box;
 }
 #portfolio h2{
-  color: #fff;
+  color: #000;
   margin-bottom: 20px;
 }
 #portfolio p{
-  color: #aaa;
+  color: #000;
   margin-bottom: 40px;
 }
 .pt{
@@ -492,9 +486,9 @@ word-break: break-all;
 }
 .pt>li{
   float: left;
-  width: 30%;
-  margin-bottom: 80px;
-  margin-left: 3%;
+  width: 33%;
+  margin-bottom: 30px;
+  /* margin-left: 3%; */
 }
 .pt>li:hover{
   background-color: rgba( 255, 255, 255, 0.5 );
@@ -520,6 +514,7 @@ word-break: break-all;
   position: relative;
 
 }
+.pt .pt0{background: url(../img/pt0.jpg) 50% 50%; background-size: cover;}
 .pt .pt1{background: url(../img/pt01.jpg) 50% 50%; background-size: cover;}
 .pt .pt2{background: url(../img/pt02.jpg) 50% 50%; background-size: cover;}
 .pt .pt3{background: url(../img/pt03.jpg) 50% 50%; background-size: cover;}
