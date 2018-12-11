@@ -57,7 +57,7 @@ function bindingEvent(){
    var x = $($(this).eq(i)).attr("href");
    var scrollPosition = $(x).offset().top;
 
-   $("body, html").stop().animate({scrollTop:scrollPosition},1200,function(){
+   $("body, html").stop().animate({scrollTop:scrollPosition},600,function(){
    moveContent(x,scrollPosition);
 
  });
@@ -102,7 +102,7 @@ function bindingEvent(){
     var x = $(this).attr("href");
     var scrollPosition = $(x).offset().top;
 
-    $("body, html").stop().animate({scrollTop:scrollPosition},1200,function(){
+    $("body, html").stop().animate({scrollTop:scrollPosition},600,function(){
     moveContent(x,scrollPosition);
   });
 
@@ -112,7 +112,7 @@ function bindingEvent(){
     var x = $(this).attr("href");
     var scrollPosition = $(x).offset().top;
 
-    $("body, html").stop().animate({scrollTop:scrollPosition},1200,function(){
+    $("body, html").stop().animate({scrollTop:scrollPosition},600,function(){
     moveContent(x,scrollPosition);
   });
 
@@ -225,7 +225,7 @@ function bindingEvent(){
 }
 
 	function showLine(){
-		var speed = 500;
+		var speed = 400;
     $(".click_btn>a").removeClass("swing")
 		$(".top").stop().delay(1000).animate({"width":"100%"},speed,function(){ //윗선 그리기
 			$(".right").stop().animate({"height":"100%"},speed,function(){ //오른선 그리기
@@ -241,7 +241,7 @@ function bindingEvent(){
 		});
 	}
   function hideLine(){
-		var speed2 = 1200;
+		var speed2 = 600;
 			$(".con11").stop().fadeOut(speed2);
 			$(".top").stop().animate({"width":"0%"},speed2);
 			$(".right").stop().animate({"height":"0%"},speed2);
@@ -256,20 +256,20 @@ function bindingEvent(){
 	}
 
 function moveContent(x,scrollPosition){
-    $(x).children(".info").stop().animate({"left":"50%", "opacity":"1"},600,function(){
-       $(x).find("h2").stop().animate({"opacity":"1"},500,function(){
+    $(x).children(".info").stop().animate({"left":"50%", "opacity":"1"},300,function(){
+       $(x).find("h2").stop().animate({"opacity":"1"},300,function(){
           $(x).find("p").stop().animate({"opacity":"1"});
        });
     });
 }
 
 function ptMove(){
-  $(".pt li").eq(0,2,4).animate({"left":0, "opacity":"1"},800);
-  $(".pt li").eq(2).animate({"left":0, "opacity":"1"},800);
-  $(".pt li").eq(4).animate({"left":0, "opacity":"1"},800);
-  $(".pt li").eq(1).animate({"right":0, "opacity":"1"},800);
-  $(".pt li").eq(3).animate({"right":0, "opacity":"1"},800);
-  $(".pt li").eq(5).animate({"right":0, "opacity":"1"},800);
+  $(".pt li").eq(0,2,4).animate({"left":0, "opacity":"1"},600);
+  $(".pt li").eq(2).animate({"left":0, "opacity":"1"},600);
+  $(".pt li").eq(4).animate({"left":0, "opacity":"1"},600);
+  $(".pt li").eq(1).animate({"right":0, "opacity":"1"},600);
+  $(".pt li").eq(3).animate({"right":0, "opacity":"1"},600);
+  $(".pt li").eq(5).animate({"right":0, "opacity":"1"},600);
 }
 
 function CtMove(){
