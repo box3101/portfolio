@@ -49,7 +49,7 @@
     height: 700px !important;
   }
   #visual .click_btn>a{
-    display: none !important;
+
   }
   #visual>h2{
     font-size: 60px;
@@ -173,7 +173,6 @@
   }
   .pt{
     width: 100%;
-    height: 1380px;
   }
   .pt li a{
     width: 100%; height: 220px;
