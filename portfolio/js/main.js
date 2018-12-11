@@ -264,12 +264,12 @@ function moveContent(x,scrollPosition){
 }
 
 function ptMove(){
-  $(".pt li").eq(0,2,4).animate({"left":0, "opacity":"1"},1200);
-  $(".pt li").eq(2).animate({"left":0, "opacity":"1"},1400);
-  $(".pt li").eq(4).animate({"left":0, "opacity":"1"},1600);
-  $(".pt li").eq(1).animate({"right":0, "opacity":"1"},1200);
-  $(".pt li").eq(3).animate({"right":0, "opacity":"1"},1400);
-  $(".pt li").eq(5).animate({"right":0, "opacity":"1"},1600);
+  $(".pt li").eq(0,2,4).animate({"left":0, "opacity":"1"},800);
+  $(".pt li").eq(2).animate({"left":0, "opacity":"1"},800);
+  $(".pt li").eq(4).animate({"left":0, "opacity":"1"},800);
+  $(".pt li").eq(1).animate({"right":0, "opacity":"1"},800);
+  $(".pt li").eq(3).animate({"right":0, "opacity":"1"},800);
+  $(".pt li").eq(5).animate({"right":0, "opacity":"1"},800);
 }
 
 function CtMove(){
