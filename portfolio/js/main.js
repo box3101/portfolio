@@ -27,7 +27,7 @@ function bindingEvent(){
      new WOW().init();
 
 // navi s
-  $(document).on("scroll",function(){
+  $(window).on("scroll",function(){
 
     if($naviBar.offset().top>50){
       $naviBar.addClass("nav-collapse");
@@ -50,14 +50,16 @@ function bindingEvent(){
 
 // Page scroll s
 
- $gnb_li_a .on("click",function(){
+ $gnb_li_a.on("click",function(e){
+   e.preventDefault();
 
    var i = $(this).index();
    var x = $($(this).eq(i)).attr("href");
    var scrollPosition = $(x).offset().top;
 
-   $("body, html").stop().animate({scrollTop:scrollPosition},1200,'easeInOutExpo',function(){
+   $("body, html").stop().animate({scrollTop:scrollPosition},1200,function(){
    moveContent(x,scrollPosition);
+
  });
 
  });
@@ -95,20 +97,22 @@ function bindingEvent(){
 
   // Btn scroll  1sssssssssssssssss
 
-  $btn.on("click",function(){
+  $btn.on("click",function(e){
+   e.preventDefault();
     var x = $(this).attr("href");
     var scrollPosition = $(x).offset().top;
 
-    $("body, html").stop().animate({scrollTop:scrollPosition},700,function(){
+    $("body, html").stop().animate({scrollTop:scrollPosition},1200,function(){
     moveContent(x,scrollPosition);
   });
 
   });
-  $btn2.on("click",function(){
+  $btn2.on("click",function(e){
+   e.preventDefault();
     var x = $(this).attr("href");
     var scrollPosition = $(x).offset().top;
 
-    $("body, html").stop().animate({scrollTop:scrollPosition},700,function(){
+    $("body, html").stop().animate({scrollTop:scrollPosition},1200,function(){
     moveContent(x,scrollPosition);
   });
 

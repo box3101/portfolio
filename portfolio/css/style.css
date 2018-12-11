@@ -339,7 +339,7 @@ word-break: break-all;
   width: 100%;
   background: url(http://www.etribe.co.kr/resources/images/common/bg_award.jpg) no-repeat;
   background-size: cover;
-  background-attachment: fixed;
+
   background-position: top left, bottom center;
   height:100vh;
   position: relative;
@@ -359,7 +359,7 @@ word-break: break-all;
   letter-spacing: -1px;
   opacity: 0;
 }
-#welcome .info>p{
+#welcome .info p{
   margin-top: 20px;
   color: #fff;
   font:bold 18px/30px 'Source Sans Pro', sans-serif;
@@ -381,7 +381,7 @@ word-break: break-all;
   width: 100%;
   background: url(http://www.etribe.co.kr/upload/new_board/C1536726562414.png) no-repeat;
   background-size: cover;
-  background-attachment: fixed;
+
   background-position: top left, bottom center;
   height:100vh;
   position: relative;
@@ -405,7 +405,7 @@ word-break: break-all;
   letter-spacing: -1px;
   opacity: 0;
 }
-#services .info>p{
+#services .info p{
   margin-top: 20px;
   color: #fff;
   font:bold 18px/30px 'Source Sans Pro', sans-serif;
@@ -426,7 +426,7 @@ word-break: break-all;
   width: 100%;
   background: url(http://www.etribe.co.kr/resources/images/common/bg_line_service.png) #000 no-repeat;
   background-size: cover;
-  background-attachment: fixed;
+
   background-position: top left, bottom center;
   height:100vh;
   position: relative;
@@ -448,7 +448,7 @@ word-break: break-all;
   letter-spacing: -1px;
   opacity: 0;
 }
-#vision .info>p{
+#vision .info p{
   margin-top: 20px;
   color: #fff;
   font:bold 18px/30px 'Source Sans Pro', sans-serif;
