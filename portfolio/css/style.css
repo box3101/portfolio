@@ -79,6 +79,10 @@ ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
   position: absolute;
   left: 15%; top: 15px;
 }
+.logo a{
+  display: block;
+  width: 100%; height: 100%;
+}
 #gnb{
   position: absolute;
   left: 50%; margin-left: -192px;
@@ -125,9 +129,10 @@ ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
     color: #fff;
 }
 
-.lists{
+.sch_lists{
   display: none;
   position: fixed;
+  z-index: 10;
   padding-top: 100px;
   width: 100%;
   height: 100%;
@@ -135,7 +140,7 @@ ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
   background: url(http://www.etribe.co.kr/resources/images/common/bg_all_menu.gif);
   opacity: 0.9;
 }
-.lists li{
+.sch_lists li{
   /* background: #000; */
 /* padding: 27px 0; */
 padding-top: 50px;
@@ -151,7 +156,7 @@ font-family: "Gotham Black";
 letter-spacing: 5px;
 opacity: 1;
 }
-.lists li a{
+.sch_lists li a{
   display: block;
   width: 100%;
     /* display: block; */
@@ -224,10 +229,10 @@ ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
 .nav-collapse .sns li a{
   line-height: 74px;
 }
-.nav-collapse .menubar {
+.nav-collapse .sch_ham {
   top: 23px;
 }
-.nav-collapse .menubar img{
+.nav-collapse .sch_ham img{
   width: 30px;
   height: 30px;
 }
@@ -347,7 +352,7 @@ word-break: break-all;
 
 #welcome .info{
   width: 50%; height: 100%;
-  position: absolute; right: 0px;
+  position: absolute; right: 0px!important;
   padding: 7% 7%;
   box-sizing: border-box;
   background: rgba(0,0,0,0.8);
@@ -515,7 +520,7 @@ word-break: break-all;
 
 }
 .pt .pt0{background: url(../img/pt0.JPG) 50% 50%; background-size: cover;}
-.pt .pt1{background: url(../img/pt01.jpg) 50% 50%; background-size: cover;}
+.pt .pt1{background: url(../img/pt01.jpg) 45% 50%; background-size: cover;}
 .pt .pt2{background: url(../img/pt02.jpg) 50% 50%; background-size: cover;}
 .pt .pt3{background: url(../img/pt03.jpg) 50% 50%; background-size: cover;}
 .pt .pt4{background: url(../img/pt04.jpg) 50% 50%; background-size: cover;}
@@ -767,17 +772,18 @@ h7{
   transition: all 0.7s;
 }
 
-.menubar{
+.sch_ham{
   display: none;
   position: absolute;
+  z-index: 9;
   top: 30px;
   right: 25px;
 }
-.menubar a{
+.sch_ham a{
   display: inline-block;
   width: 100%; height: 100%;
 }
-.menubar img{
+.sch_ham img{
   width: 40px; height: 40px;
 }
 .swiper-slide .quick_url:hover{
