@@ -13,3 +13,24 @@ var mySite = {
   }
 }
 mySite.init();
+
+$(document).ready(function(){
+  var tabsSwiper = new Swiper('.swiper-container',{
+      speed:500,
+      onSlideChangeStart: function(){
+        console.log(123);
+      $(".tabs li").removeClass('active')
+      $(".tabs li").eq(tabsSwiper.activeIndex).addClass('active')
+    }
+  })
+  $(".tabs li").on('touchstart mousedown',function(e){
+  e.preventDefault()
+  $(".tabs li").removeClass('active')
+  $(this).addClass('active')
+  tabsSwiper.swipeTo( $(this).index() )
+  })
+  $(".tabs li").click(function(e){
+  e.preventDefault()
+  })
+
+})

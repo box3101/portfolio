@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+  <link rel="stylesheet" href="css/swiper_min.css">
 </head>
 <body>
   <div id="wrap">
@@ -84,13 +85,17 @@
 
             <div class="search-inner clearfix">
               <div class="categories">
-                <a href="#!">
-                  All categories
-                  <i class="fa fa-caret-down" aria-hidden="true"></i>
-                </a>
+                <select>
+                  <option value="num1">ALL categories</option>
+                  <option value="num2">categories1</option>
+                  <option value="num3">categories2</option>
+                  <option value="num4">categories3</option>
+                  <option value="num5">categories4</option>
+                </select>
+
               </div>
               <div class="search">
-                <input type="text" value="Search entire store here..." id="search-btn">
+                <input type="text" placeholder="Search entire store here." id="search-btn">
               </div>
               <div class="search-btn">
                 <a href="#!">
@@ -218,118 +223,334 @@
              <h2>OFFICE FURNITURE</h2>
            </div>
            <div class="sub-title clearfix">
-             <ul>
-               <li><a href="#!">Shoes & boots</a></li>
+             <ul class="tabs">
+               <li class="active"><a href="#!">Shoes & boots</a></li>
                <li><a href="#!">Clothes/Shirt</a></li>
                <li><a href="#!">Most Reviews</a></li>
              </ul>
            </div>
          </div>
          <!-- menu-bar e -->
-         <div class="furnitures">
-           <ul class="clearfix">
-             <li>
-               <div class="furniture-item clearfix">
-                 <div class="img">
-                  <div class="second-img"></div>
-                  <a href="#!" class="quick-view">Quick-view</a>
-                 </div>
-                 <!-- img e -->
-                 <div class="info">
-                   <a href="#">Stockholm Chair high Mosta gruancy</a>
-                   <p>$75.00</p>
-                   <div class="group-btn">
-                     <a href="#!" class="heart">
-                       <i class="fa fa-heart-o" aria-hidden="true"></i>
-                     </a>
-                     <a href="#!" class="heart">
-                       <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                     </a>
-                     <a href="#!" class="heart">
-                       <i class="fa fa-envelope-o" aria-hidden="true"></i>
-                     </a>
+
+           <div class="furnitures swiper-container">
+             <div class="swiper-wrapper">
+               <ul class="clearfix swiper-slide">
+                 <li>
+                   <div class="furniture-item clearfix">
+                     <div class="img">
+                      <div class="second-img"></div>
+                      <a href="#!" class="quick-view">Quick-view</a>
+                     </div>
+                     <!-- img e -->
+                     <div class="info">
+                       <a href="#">Stockholm Chair high Mosta gruancy</a>
+                       <p>$123.00</p>
+                       <div class="group-btn">
+                         <a href="#!" class="heart">
+                           <i class="fa fa-heart-o" aria-hidden="true"></i>
+                         </a>
+                         <a href="#!" class="heart">
+                           <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                         </a>
+                         <a href="#!" class="heart">
+                           <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                         </a>
+                       </div>
+                     </div>
+                     <!-- info e -->
                    </div>
-                 </div>
-                 <!-- info e -->
-               </div>
-               <!-- furniture-item e -->
-             </li><li>
-               <div class="furniture-item clearfix">
-                 <div class="img second">
-                   <div class="second-img third"></div>
-                   <a href="#!" class="quick-view">Quick-view</a>
-                 </div>
-                  <!-- img second e -->
-                 <div class="info">
-                   <a href="#">Stockholm Chair high Mosta gruancy</a>
-                   <p>$75.00</p>
-                   <div class="group-btn">
-                     <a href="#!" class="heart">
-                       <i class="fa fa-heart-o" aria-hidden="true"></i>
-                     </a>
-                     <a href="#!" class="heart">
-                       <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                     </a>
-                     <a href="#!" class="heart">
-                       <i class="fa fa-envelope-o" aria-hidden="true"></i>
-                     </a>
+                   <!-- furniture-item e -->
+                 </li><li>
+                   <div class="furniture-item clearfix">
+                     <div class="img second">
+                       <div class="second-img third"></div>
+                       <a href="#!" class="quick-view">Quick-view</a>
+                     </div>
+                      <!-- img second e -->
+                     <div class="info">
+                       <a href="#">Stockholm Chair high Mosta gruancy</a>
+                       <p>$171.00</p>
+                       <div class="group-btn">
+                         <a href="#!" class="heart">
+                           <i class="fa fa-heart-o" aria-hidden="true"></i>
+                         </a>
+                         <a href="#!" class="heart">
+                           <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                         </a>
+                         <a href="#!" class="heart">
+                           <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                         </a>
+                       </div>
+                     </div>
+                     <!-- info e -->
                    </div>
-                 </div>
-                 <!-- info e -->
-               </div>
-               <!-- furniture-item 2 e -->
-             </li><li>
-               <div class="furniture-item clearfix">
-                 <div class="img third">
-                   <div class="second-img fourth"></div>
-                   <a href="#!" class="quick-view">Quick-view</a>
-                 </div>
-                 <!-- img thire e -->
-                 <div class="info">
-                   <a href="#">Stockholm Chair high Mosta gruancy</a>
-                   <p>$75.00</p>
-                   <div class="group-btn">
-                     <a href="#!" class="heart">
-                       <i class="fa fa-heart-o" aria-hidden="true"></i>
-                     </a>
-                     <a href="#!" class="heart">
-                       <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                     </a>
-                     <a href="#!" class="heart">
-                       <i class="fa fa-envelope-o" aria-hidden="true"></i>
-                     </a>
+                   <!-- furniture-item 2 e -->
+                 </li><li>
+                   <div class="furniture-item clearfix">
+                     <div class="img third">
+                       <div class="second-img fourth"></div>
+                       <a href="#!" class="quick-view">Quick-view</a>
+                     </div>
+                     <!-- img thire e -->
+                     <div class="info">
+                       <a href="#">Stockholm Chair high Mosta gruancy</a>
+                       <p>$752.00</p>
+                       <div class="group-btn">
+                         <a href="#!" class="heart">
+                           <i class="fa fa-heart-o" aria-hidden="true"></i>
+                         </a>
+                         <a href="#!" class="heart">
+                           <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                         </a>
+                         <a href="#!" class="heart">
+                           <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                         </a>
+                       </div>
+                     </div>
+                     <!-- info e -->
                    </div>
-                 </div>
-                 <!-- info e -->
-               </div>
-               <!-- furniture-item 3 e -->
-             </li><li>
-               <div class="furniture-item clearfix">
-                 <div class="img fourth">
-                   <div class="second-img second"></div>
-                   <a href="#!" class="quick-view">Quick-view</a>
-                 </div>
-                 <!-- img fourth e -->
-                 <div class="info">
-                   <a href="#">Stockholm Chair high Mosta gruancy</a>
-                   <p>$75.00</p>
-                   <div class="group-btn">
-                     <a href="#!" class="heart">
-                       <i class="fa fa-heart-o" aria-hidden="true"></i>
-                     </a>
-                     <a href="#!" class="heart">
-                       <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                     </a>
-                     <a href="#!" class="heart">
-                       <i class="fa fa-envelope-o" aria-hidden="true"></i>
-                     </a>
+                   <!-- furniture-item 3 e -->
+                 </li><li>
+                   <div class="furniture-item clearfix">
+                     <div class="img fourth">
+                       <div class="second-img second"></div>
+                       <a href="#!" class="quick-view">Quick-view</a>
+                     </div>
+                     <!-- img fourth e -->
+                     <div class="info">
+                       <a href="#">Stockholm Chair high Mosta gruancy</a>
+                       <p>$34.00</p>
+                       <div class="group-btn">
+                         <a href="#!" class="heart">
+                           <i class="fa fa-heart-o" aria-hidden="true"></i>
+                         </a>
+                         <a href="#!" class="heart">
+                           <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                         </a>
+                         <a href="#!" class="heart">
+                           <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                         </a>
+                       </div>
+                     </div>
+                     <!-- info e -->
                    </div>
-                 </div>
-                 <!-- info e -->
-               </div>
-               <!-- furniture-item 4 e -->
-             </li>
-           </ul>
+                   <!-- furniture-item 4 e -->
+                 </li>
+               </ul>
+               <ul class="clearfix swiper-slide">
+                 <li>
+                   <div class="furniture-item clearfix">
+                     <div class="img second">
+                       <div class="second-img third"></div>
+                       <a href="#!" class="quick-view">Quick-view</a>
+                     </div>
+                      <!-- img second e -->
+                     <div class="info">
+                       <a href="#">Stockholm Chair high Mosta gruancy</a>
+                       <p>$105.00</p>
+                       <div class="group-btn">
+                         <a href="#!" class="heart">
+                           <i class="fa fa-heart-o" aria-hidden="true"></i>
+                         </a>
+                         <a href="#!" class="heart">
+                           <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                         </a>
+                         <a href="#!" class="heart">
+                           <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                         </a>
+                       </div>
+                     </div>
+                     <!-- info e -->
+                   </div>
+                   <!-- furniture-item 2 e -->
+                 </li>
+                 <li>
+                   <div class="furniture-item clearfix">
+                     <div class="img second">
+                       <div class="second-img third"></div>
+                       <a href="#!" class="quick-view">Quick-view</a>
+                     </div>
+                      <!-- img second e -->
+                     <div class="info">
+                       <a href="#">Stockholm Chair high Mosta gruancy</a>
+                       <p>$200.00</p>
+                       <div class="group-btn">
+                         <a href="#!" class="heart">
+                           <i class="fa fa-heart-o" aria-hidden="true"></i>
+                         </a>
+                         <a href="#!" class="heart">
+                           <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                         </a>
+                         <a href="#!" class="heart">
+                           <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                         </a>
+                       </div>
+                     </div>
+                     <!-- info e -->
+                   </div>
+                   <!-- furniture-item 2 e -->
+                 </li>
+                 <li>
+                   <div class="furniture-item clearfix">
+                     <div class="img fourth">
+                       <div class="second-img second"></div>
+                       <a href="#!" class="quick-view">Quick-view</a>
+                     </div>
+                     <!-- img fourth e -->
+                     <div class="info">
+                       <a href="#">Stockholm Chair high Mosta gruancy</a>
+                       <p>$300.00</p>
+                       <div class="group-btn">
+                         <a href="#!" class="heart">
+                           <i class="fa fa-heart-o" aria-hidden="true"></i>
+                         </a>
+                         <a href="#!" class="heart">
+                           <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                         </a>
+                         <a href="#!" class="heart">
+                           <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                         </a>
+                       </div>
+                     </div>
+                     <!-- info e -->
+                   </div>
+                   <!-- furniture-item 4 e -->
+                 </li>
+                 <li>
+                   <div class="furniture-item clearfix">
+                     <div class="img third">
+                       <div class="second-img fourth"></div>
+                       <a href="#!" class="quick-view">Quick-view</a>
+                     </div>
+                     <!-- img thire e -->
+                     <div class="info">
+                       <a href="#">Stockholm Chair high Mosta gruancy</a>
+                       <p>$475.00</p>
+                       <div class="group-btn">
+                         <a href="#!" class="heart">
+                           <i class="fa fa-heart-o" aria-hidden="true"></i>
+                         </a>
+                         <a href="#!" class="heart">
+                           <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                         </a>
+                         <a href="#!" class="heart">
+                           <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                         </a>
+                       </div>
+                     </div>
+                     <!-- info e -->
+                   </div>
+                   <!-- furniture-item 3 e -->
+                 </li>
+
+               </ul>
+               <ul class="clearfix swiper-slide">
+                 <li>
+                   <div class="furniture-item clearfix">
+                     <div class="img">
+                      <div class="second-img"></div>
+                      <a href="#!" class="quick-view">Quick-view</a>
+                     </div>
+                     <!-- img e -->
+                     <div class="info">
+                       <a href="#">Stockholm Chair high Mosta gruancy</a>
+                       <p>$124.00</p>
+                       <div class="group-btn">
+                         <a href="#!" class="heart">
+                           <i class="fa fa-heart-o" aria-hidden="true"></i>
+                         </a>
+                         <a href="#!" class="heart">
+                           <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                         </a>
+                         <a href="#!" class="heart">
+                           <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                         </a>
+                       </div>
+                     </div>
+                     <!-- info e -->
+                   </div>
+                   <!-- furniture-item e -->
+                 </li>
+                 <li>
+                   <div class="furniture-item clearfix">
+                     <div class="img second">
+                       <div class="second-img third"></div>
+                       <a href="#!" class="quick-view">Quick-view</a>
+                     </div>
+                      <!-- img second e -->
+                     <div class="info">
+                       <a href="#">Stockholm Chair high Mosta gruancy</a>
+                       <p>$242.00</p>
+                       <div class="group-btn">
+                         <a href="#!" class="heart">
+                           <i class="fa fa-heart-o" aria-hidden="true"></i>
+                         </a>
+                         <a href="#!" class="heart">
+                           <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                         </a>
+                         <a href="#!" class="heart">
+                           <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                         </a>
+                       </div>
+                     </div>
+                     <!-- info e -->
+                   </div>
+                   <!-- furniture-item 2 e -->
+                 </li><li>
+                   <div class="furniture-item clearfix">
+                     <div class="img third">
+                       <div class="second-img fourth"></div>
+                       <a href="#!" class="quick-view">Quick-view</a>
+                     </div>
+                     <!-- img thire e -->
+                     <div class="info">
+                       <a href="#">Stockholm Chair high Mosta gruancy</a>
+                       <p>$685.00</p>
+                       <div class="group-btn">
+                         <a href="#!" class="heart">
+                           <i class="fa fa-heart-o" aria-hidden="true"></i>
+                         </a>
+                         <a href="#!" class="heart">
+                           <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                         </a>
+                         <a href="#!" class="heart">
+                           <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                         </a>
+                       </div>
+                     </div>
+                     <!-- info e -->
+                   </div>
+                   <!-- furniture-item 3 e -->
+                 </li><li>
+                   <div class="furniture-item clearfix">
+                     <div class="img fourth">
+                       <div class="second-img second"></div>
+                       <a href="#!" class="quick-view">Quick-view</a>
+                     </div>
+                     <!-- img fourth e -->
+                     <div class="info">
+                       <a href="#">Stockholm Chair high Mosta gruancy</a>
+                       <p>$754.00</p>
+                       <div class="group-btn">
+                         <a href="#!" class="heart">
+                           <i class="fa fa-heart-o" aria-hidden="true"></i>
+                         </a>
+                         <a href="#!" class="heart">
+                           <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                         </a>
+                         <a href="#!" class="heart">
+                           <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                         </a>
+                       </div>
+                     </div>
+                     <!-- info e -->
+                   </div>
+                   <!-- furniture-item 4 e -->
+                 </li>
+               </ul>
+
+                   <!-- 네비게이션 지정 -->
+            </div>
          </div>
          <!-- furnitures e -->
        </section>
@@ -985,8 +1206,12 @@
  </div>
  <!-- footer e -->
 </div>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="js/jquery-1.8.3.min.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+<script type="text/javascript" src="js/idangerous.swiper-2.1.min.js"></script>
 <script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript">
+
+</script>
 </body>
 </html>

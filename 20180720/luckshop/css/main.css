@@ -1,3 +1,12 @@
+.swiper-container {
+
+}
+.swiper-slide {
+	text-align:center;
+}
+.swiper-slide img {
+	box-shadow:0 0 5px #555;
+}
 .container{
   width: 1200px;
   margin: 0 auto;
@@ -49,15 +58,36 @@
   float: left;
   width: 60%;
   border: 3px solid #eee;
-  padding: 10px 0;
+  box-sizing: border-box;
   position: relative;
 }
 .header-middle .search-inner .categories{
   float: left;
   border-right: 2px solid #eee;
 }
+.header-middle .search-inner .categories select{
+  width: 194px;
+  height: 57px;
+  border:0;
+  padding: 0 20px;
+  color: #666;
+  border-style: none;
+  cursor: pointer;
+  background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) no-repeat right 10px center;
+  background-size: 10px;
+  -webkit-appearance: none; /* 화살표 없애기 for chrome*/
+-moz-appearance: none; /* 화살표 없애기 for firefox*/
+appearance: none; /* 화살표 없애기 공통*/
+}
+select::-ms-expand { display:none; }
+.header-middle .search-inner .categories select option{font-size: 15px;color:#666;font-weight:bold; padding:5px;}
+/* check, hover 스타일 설정 IE, Chrome */
+select option:hover {
+    background: #ff00ff;
+    color: #fff;
+}
 .header-middle .search-inner .categories a{
-  padding: 10px 12px 10px 32px;
+  /* padding: 10px 12px 10px 32px; */
   display: inline-block;
   color: #666;
   font-size: 14px;
@@ -73,6 +103,7 @@
 }
 #search-btn{
   width: 100%;
+  height: 35px;
   font-size: 13px;
   color: #aaa;
   padding-left: 50px;
@@ -280,7 +311,7 @@ section.main-wrap .text a{
   transition: all 0.7s;
   color: #eec15b;
 }
-.sub-title ul li:first-child a{
+.sub-title ul li.active a{
   color:#eec15b;
 }
 section.furniture{
@@ -308,6 +339,7 @@ section.furniture .furnitures ul li{
   float: left;
   width: 50%;
   padding: 15px 10px;
+  box-sizing: border-box;
   border-right: 1px solid #f0f0f0;
   border-bottom: 1px solid #f0f0f0;
 }
