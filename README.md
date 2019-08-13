@@ -7,7 +7,7 @@
 - [luckShop](https://box3101.github.io/portfolio/20180720/luckshop/index.html)
 처음으로 만든 외국사이트 리뉴얼한 사이트입니다.
 디자인컨셉: 심플한 가정제품 판매 쇼핑몰 
-- 개발과정 -
+- 개발과정 -  
 	레이아웃 : 거의 모든 레이아웃을 float를 사용해 제작하였습니다. (float해제는 clearfix class사용)
 	모션 : css3의 가장 핵심적인 기술인 transition,transform,box-showdow 등을 자주 사용하여 만들었고 특히 gnb부분은
 	자주 쓰이는 jquery slideToggle을 사용하지 않고 오로지 css3기능으로만 제작하였습니다.
