@@ -24,7 +24,7 @@ css3의 여러가지 기능들이 아직 익스 9이하부터는 적용되지 �
 float해제방법으로는 5가지정도가 있지만 가장 보편적으로 사용되는게 float사용한 부모에게 overflow:hidden을 주는 방법인데  
 모션 제작할때 조금 제약을 받은것같아 clearfix사용한 해제사용 방법이 개인적으로는 가장 좋았던 것 같습니다.  
   
-- [showBox](https://box3101.github.io/portfolio/20180720/showbox/index.php)
+- [showBox](http://box3101.dothome.co.kr/showbox/index.php)
 
 
 레이아웃: 
@@ -62,6 +62,22 @@ input 태그에 label for, id연결, 모든 페이지마다 skip naigation 적�
 
 - [WALKERHILL](https://box3101.github.io/portfolio/20180720/WALKERHILL.html)
 
+기존의 WALKERHILL를 리모델링한 사이트입니다.  
+디자인컨셉: 호텔 예약 사이트  
+- 개발과정 -  
+레이아웃 : position을 사용한 색다른 레이아웃 사이트를 구성,제작해 보았습니다.   
+메뉴 communiny , 워커힐 리워즈 가입부분을 눌러보면 회원가입,게시판 테이블을 직적 작성하였습니다.  
+모션: css3의 rotate를 이용하여 반응형으로 되었을때 180도나 360도로 회전하는등 여러가지 모션을 걸어보았습니다.    
+반응형 : pc버전 , 태블릿버전, moblie 버전 3가지로 미디어쿼리를 사용해 제작 하였습니다.
+									
+
+
 ###### Ajax 
 - [Ajax 연동](https://box3101.github.io/portfolio/20180720/ajax/index.html)
 
+url : target, beforeSend : function(){ console.log("데이터 불러오기전까지 이구문이 실행") },  
+success : function(data){ console.log(data); $(".showBox").html(data); },  
+error : function(){ }  
+데이터를 불러오기 전까지 실행할 구문,데이터가 성공적으로 불러와지면 실행할 구문,데이터 불러오기 실패구문로 나뉘어  
+한 index.html 안에 10개의
+html페이지를 불러오기 하였습니다.
