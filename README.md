@@ -4,6 +4,48 @@
 ###### Responsiv -
 - [포트폴리오 원페이지 모음](https://box3101.github.io/portfolio/20180720/portfolio/html/main.html#none)
 
+
+- [ESMO](http://nepesamc.gabia.io/)  
+
+전자정보소재 홈페이지 리뉴얼 작업했습니다.    
+
+-개발과정-  
+슬라이더는 bxSlide, swiper-slide 사용해 만들었습니다.  
+반응형 : pc버전 , 태블릿버전, moblie 버전 3가지로 미디어쿼리를 사용해 제작 하였습니다.  
+풀스크린 원페이지 사이트로,  
+원페이지는 플로그인을 사용하지 않고 직접 마우스휠, 터치(모바일)등을 설정하여 제작하였습니다.
+
+- [경성쌍화](http://ksssangwha.com/index.php)  
+
+카페 프랜차이즈 홈페이지 제작했습니다.
+
+-개발과정-  
+반응형 : pc버전 , 태블릿버전, moblie 버전 3가지로 미디어쿼리를 사용해 제작 하였습니다.  
+
+- [광고야](http://adya2019.cafe24.com/)  
+
+광고 제작 홈페이지 제작했습니다.
+
+-개발과정-  
+반응형 : pc버전 , 태블릿버전, moblie 버전 3가지로 미디어쿼리를 사용해 제작 하였습니다.  
+
+- [대출1번지] pc- (http://대출1번지.kr/)   , 모바일- (http://대출1번지.kr/m)  
+
+대출사이트 홈페이지 제작했습니다.
+
+-개발과정-  
+반응형 : pc버전 moblie 버전 2가지로제작 하였습니다.  
+
+- [GREL](http://grelglobal.com/)  
+
+히토류 사업 홈페이지 리뉴얼 작업했습니다.  
+
+-개발과정-  
+슬라이더는 bxSlide, swiper-slide 사용해 만들었습니다.  
+반응형 : pc버전 , 태블릿버전, moblie 버전 3가지로 미디어쿼리를 사용해 제작 하였습니다.  
+풀스크린 원페이지 사이트로,  
+원페이지는 플로그인을 사용하지 않고 직접 마우스휠, 터치(모바일)등을 설정하여 제작하였습니다.
+
 - [luckShop](https://box3101.github.io/portfolio/20180720/luckshop/index.html)
 
 
