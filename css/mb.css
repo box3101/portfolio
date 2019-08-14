@@ -1,0 +1,463 @@
+@media screen and (max-width:1200px) and (min-width:769px){
+  h2 {
+    font: bold 30px/1 'open Sans', sans-serif;
+    color: #fff;
+  }
+  #welcome .info p {
+    margin-top: 12px;
+    width: 100%;
+    color: #fff;
+    font: bold 15px/30px 'Source Sans Pro', sans-serif;
+    text-align: justify;
+    opacity: 1;
+    text-align: center;
+    word-break: inherit;
+  }
+  #welcome .info {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    right: -1000px;
+    padding: 15% 5%;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.8);
+    opacity: 1!important;
+}
+  .sch_ham {
+    display: none;
+    position: absolute;
+    z-index: 9;
+    top: 17px;
+    right: 25px;
+  }
+  .sns{
+    display: none;
+  }
+  h2{
+    text-align: center;
+  }
+  #visual .main_txt>p {
+    font-size: 16px;
+    font-weight: 900;
+    opacity: 0.8;
+    position: relative;
+    z-index: 10;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+  #visual .main_txt>h2 {
+    margin-top: 30px;
+    font-size: 3em;
+    font-weight: 300;
+    letter-spacing: 0.16em;
+    position: relative;
+    z-index: 10;
+    word-break: break-all;
+}
+  .form{
+    width: 100%;
+  }
+  #vision .info {
+    width: 446px;
+    position: absolute;
+    right: -1000px;
+    top: 20%;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 90px 46px;
+    box-sizing: border-box;
+    opacity: 0;
+  }
+  #services .info{
+    left: 60% !important;
+  }
+  #portfolio {
+    padding: 43px 0;
+    height: auto !important;
+  }
+
+}
+
+@media screen and (max-width:768px) and (min-width:0px){
+  #visual .main {
+    position: relative;
+    top: 21%;
+    width: 70%;
+    height: 57vh;
+    padding-top: 23px;
+    margin: 0 auto;
+}
+#navi{
+  display: none;
+}
+#visual .main_txt>p {
+  font-size: 14px;
+  font-weight: 900;
+  opacity: 0.8;
+  position: relative;
+  z-index: 10;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.close {
+  position: absolute;
+  z-index: 1;
+  top: 10px;
+  right: 8px;
+  display: block;
+  width: 15px;
+  height: 15px;
+  background: url(http://www.etribe.co.kr/resources/images/common/btn_close_all_menu.png)no-repeat;
+  text-indent: -9999px;
+  text-align: center;
+  font-size: 15px;
+  background-size: cover;
+  line-height: 40px;
+  text-align: center;
+  color: #000;
+}
+#visual .main_txt>h2 {
+  margin-top: 40px;
+  font-size: 35px;
+  font-weight: 300;
+  letter-spacing: 0.16em;
+  position: relative;
+  z-index: 10;
+  line-height: 47px;
+  word-break: break-all;
+}
+.btn i {
+  position: relative;
+  top: 50%;
+  margin-top: -25px;
+  font-size: 30px;
+  color: #fff;
+  transition: all 1s;
+}
+  #portfolio{
+    background: #111111;
+  }
+  #welcome .info p:first-of-type {
+    margin-top: 20px;
+}
+.btn2 {
+  display: block;
+  width: 60px;
+  height: 50px;
+  border: 1px solid #fff;
+  border-radius: 55px 55px 0px 0px;
+  position: absolute;
+  left: 56%;
+  margin-left: -51px;
+  bottom: 0;
+  text-align: center;
+  z-index: 12;
+}
+.btn2 i {
+  position: relative;
+  top: 50%;
+  margin-top: -20px;
+  font-size: 28px;
+  color: #fff;
+}
+  .sch_ham {
+    display: none;
+    position: absolute;
+    z-index: 9;
+    top: 17px;
+    right: 25px;
+  }
+  #portfolio {
+    padding: 43px 0;
+    height: auto !important;
+  }
+  .sns{
+    display: none;
+  }
+  #welcome .info p {
+    margin-top: 19px;
+    color: #fff;
+    font: bold 13px/35px 'Source Sans Pro', sans-serif;
+    text-align: justify;
+    opacity: 1;
+    text-align: center;
+    word-break: inherit;
+}
+
+  .bg{
+    width: 100% !important;
+  }
+  #header{
+    height: 74px;
+  }
+  .nav-collapse{
+    height: 58px;
+  }
+  .logo{
+    left: 22px; top: 16px;
+    width: 44px; height: 44px;
+  }
+  #header{
+    width: 100%;
+  }
+  .sns{
+    display: none;
+  }
+  .logo{
+    left: 30px !important;
+  }
+  #gnb{
+    display: none;
+  }
+  #gnb>li>a{
+    font-size: 12px;
+    line-height: 74px;
+  }
+  #sns{
+    display: none;
+  }
+  .menuBtn{
+    opacity: 1;
+  }
+  #togleGnb{
+    top: 58px;
+  }
+  .nav-collapse .menuBtn{
+    top: 29px;
+  }
+  .nav-collapse .logo{
+    top: 7px;
+  }
+  /* visual */
+ 
+  #visual>h2{
+    font-size: 60px;
+    padding-top: 187px;
+  }
+  #visual>p{
+    margin-top: 23px;
+    font-size: 14px;
+  }
+  #visual .main{
+    width: 88.5% !important;
+  }
+  .btn {
+    margin-top: 19%!important;
+    width: 50px;
+    height: 50px;
+}
+#vision .info p {
+  margin-top: 20px;
+  color: #fff;
+  font: bold 14px/26px 'Source Sans Pro', sans-serif;
+  text-align: justify;
+  opacity: 0;
+  word-break: inherit;
+}
+  /* welcome */
+
+  #welcome{
+
+    position: relative;
+    margin-top: 10px;
+  }
+  #welcome .info{
+    width: 100% !important;
+    height: 100%!important;
+    top: 50%;
+    left: 0 !important;
+    text-align: center;
+    position: absolute;
+    padding: 95px 46px;
+    opacity: 1;
+    /* padding-top: 174px; */
+    transform: translateY(-50%);
+  }
+  #welcome .info>h2{
+    font-size: 30px;
+    opacity: 1;
+  }
+  #welcome .info>p {
+    text-align: center;
+    opacity: 1;
+    line-height: 19px;
+}
+
+  /* services e */
+  #services{
+      margin: 10px 0 0 0;
+  }
+
+  #services .info{
+    margin-top: 0% !important;
+    margin-left: 0 !important;
+    position: absolute;
+    width: 100% !important;
+    left: 0 !important;
+    margin-left: 0;
+    text-align: center;
+    top: 50% !important;
+    transform: translateY(-50%);
+    height: 100%;
+    text-align: center!important;
+   
+    opacity: 1;
+  }
+  .mCSB_inside > .mCSB_container {
+    position: absolute;
+    top: 0%!important;
+    transform: translateY(-50%);
+    
+}
+  #services .info p{
+    text-align:center;
+  }
+  .nav-collapse .sch_ham {
+    top: 14px;
+}
+  #services .info>h2{
+    margin-top: 10%;
+    font-size: 20px;
+    opacity: 1;
+  }
+  #services .info>p{
+    text-align: center;
+    opacity: 1;
+  }
+
+  /* vision */
+  #vision{
+    height: 640px;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px !important;
+  }
+  #vision .info{
+    width: 100%!important; height: 100%;
+    text-align: center;
+    position: absolute;
+    top: 0% !important;
+    left: 0!important;
+    padding: 49px 46px;
+    padding-top: 125px;
+      opacity: 1;
+    overflow: hidden;
+  }
+  #vision .info>h2{
+    font-size: 30px;
+    opacity: 1;
+  }
+  #vision .info>p{
+    text-align: center;
+    opacity: 1;
+  }
+
+
+  #portfolio{
+    padding: 43px 0;
+  
+  }
+
+  a.tops {
+    display: block!important;
+    position: fixed;
+    right: 10px!important;
+    height: 13px;
+    bottom: 15px!important;
+    z-index: 9999;
+    display: none;
+    width: 44px;
+    padding: 10px 0;
+    border-radius: 0;
+    background-color: #ef4036;
+    text-align: center;
+    line-height: 1;
+    font-size: 15px;
+    padding-bottom: 22px;
+    opacity: 1!important;
+    color: #fff;
+}
+  #portfolio>h2{
+    font-size: 45px;
+  }
+  #portfolio>p{
+    font-size: 15px;
+  }
+  .pt li:nth-of-type(2n-1){
+    width: 100%;
+    left: 0;
+    opacity: 1;
+  }
+  .pt li:nth-of-type(2n){
+    width: 100%;
+    left: 0;
+    opacity: 1;
+  }
+  .pt{
+    width: 100%;
+  }
+  .pt li a{
+    width: 100%; height: 220px;
+  }
+  #contact {
+    position: relative;
+    top: -2px;
+    padding: 20px 30px !important;
+}
+  #contact p{
+    font-size: 15px;
+    margin-bottom: 0;
+  }
+  .form {
+    width: 100% !important;
+    opacity: 1;
+    height: 441px;
+    margin-top: 0;
+    background: #eee;
+}
+  input{
+    width: 100%;
+  }
+  input[id="first"]{
+    margin: 0;
+  }
+  body{
+    overflow: auto;
+  }
+  #contents{
+    background: #fff;
+    position: relative;
+    z-index: 15;
+    overflow:auto;
+  }
+  textarea{
+    height: 135px !important;
+  }
+  #footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 269px;
+    background: #000;
+    text-align: center;
+    padding-top: 25px;
+}
+  .sch_ham{
+    display: block!important;
+  }
+} 
+@media screen and (max-width: 768px) and (min-aspect-ratio: 570/644) and (min-width: 480px) {
+  .dimm {
+    display: block;
+    z-index: 10000;
+    opacity: 1;
+  }
+
+  .dimm:after {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    content: "세로모드로 최적화 되어 있습니다.";
+  }
+}
